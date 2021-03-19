@@ -1,0 +1,47 @@
+<htmL>
+    <body>
+        <p>Ingrese su nombre:</p>
+        <input type="text" id="nombre">
+
+        <p>Ingrese su apellido</p>
+        <input type="text" id="apellido">
+
+        <p>Ingrese su edad</p>
+        <input type="number" id="edad">
+        <br><br>
+
+        <button onclick="mostrarDatos()">-Mostrar datos ingresados-</button>
+        <br>
+
+        <h1 id="printNombre"></h1>
+        <h2 id="printApellido"></h2>
+        <h3 id="printEdad"></h3>
+        
+        <script>
+            function mostrarDatos(){
+                var nombre = document.getElementById("nombre").value;
+                var apellido = document.getElementById("apellido").value;
+                var edad = document.getElementById("edad").value;
+                var mensaje1 = "Su nombre es " + nombre;
+                var mensaje2 = "Su apellido es " + apellido;
+                var mensaje3 = "Su edad es de " + edad;
+
+                document.getElementById("printNombre").innerHTML = mensaje1;
+                document.getElementById("printNombre").style.color= "brown";
+
+                document.getElementById("printApellido").innerHTML = mensaje2;
+                document.getElementById("printApellido").style.color = "red";
+
+                document.getElementById("printEdad").innerHTML = mensaje3;
+                document.getElementById("printEdad").style.color = "yellow";
+
+                if(edad >=18){
+                    document.body.style.backgroundColor = "blue";
+                }
+                else{
+                    document.body.style.backgroundColor = "green";
+                }
+            }
+        </script>
+    </body>
+</htmL>
