@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <p>PRIMER OPERANDO<input type="num1" id=primerOperando></textarea></p>
+        <p>SEGUNDO OPERANDO<input type="num2" id=segundoOperando></textarea></p>
+        <br>
+        
+        <button onclick=suma() id="sum">SUMAR</button>
+        <button onclick=resta() id="rest">RESTAR</button>
+        <button onclick=multiplicacion() id="multi">MULTIPLICAR</button>
+        <button onclick=division() id="divi">DIVIDIR</button>
+        <h1 id="rta"></h1>
+        <script>
+            function suma(){
+                var num1=document.getElementById("primerOperando").value;  
+                var num2=document.getElementById("segundoOperando").value;
+                var resultado=parseInt(num1) + parseInt(num2);
+                document.getElementById("rta").innerHTML=resultado;
+            }
+            function resta(){
+                var num1=document.getElementById("primerOperando").value;  
+                var num2=document.getElementById("segundoOperando").value;
+                var resultado=parseInt(num1) - parseInt(num2);
+                document.getElementById("rta").innerHTML=resultado;
+            }
+            function multiplicacion(){
+                var num1=document.getElementById("primerOperando").value;  
+                var num2=document.getElementById("segundoOperando").value;
+                var resultado=parseInt(num1) * parseInt(num2);
+                document.getElementById("rta").innerHTML=resultado;
+            }
+            function division(){
+                var num1=document.getElementById("primerOperando").value;  
+                var num2=document.getElementById("segundoOperando").value;
+                var resultado=parseInt(num1) / parseInt(num2);
+                document.getElementById("rta").innerHTML=resultado;
+            }
+        </script>
+    </body>
+</html>
