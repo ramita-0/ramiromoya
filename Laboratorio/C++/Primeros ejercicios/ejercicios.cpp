@@ -14,7 +14,7 @@ bool todosSonPares(vector<int> numeros){
     return true;
 }
 
-void agregarNumeros(vector<int> numeros, vector<int> elementosNuevos){
+void agregarNumeros(vector<int> &numeros, vector<int> elementosNuevos){
     for(int i=0; i<elementosNuevos.size(); i++){
         numeros.push_back(elementosNuevos[i]);
     }
