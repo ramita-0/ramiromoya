@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <script>
+      function cantApariciones(array,n){
+        var contador = 0;
+        for(var i = 0; i < array.length; i++){
+          if(n == array[i]){
+            contador++;
+          }
+        }
+        return contador;
+      }
+
+      function posibleMailValido(posibleMail){
+        var check = 0;
+        for(var i = 0; i <posibleMail.length){
+          if(i == 0 && posibeMail[i] != '@') check++;
+          if(i == posibleMail.length && posibleMail[i] != '@') check++;
+        }
+        if(check == 2) return true;
+        else return false;
+      }
+    </script>
+  </body>
+</html>
