@@ -7,7 +7,7 @@ function cantApariciones(array,n){
     }
     return contador;
 }
-//no funciona
+
 function posibleMailValido(){
     var posibleMail = document.getElementById("posibleMail").value;
     var check = 0;
@@ -33,7 +33,7 @@ function posibleTelefonoValido(){
     else{
         check=false
     }
-    //test, preguntar por que no anda
+
     if(check == true) document.getElementById("return").innerHTML = "Telefono valido";
     else document.getElementById("return").innerHTML = "Telefono invalido";
 }
