@@ -15,7 +15,7 @@ public class persona {
         telefono=1100000000;
         direccion="xxxx";
     }
-    public void newNombre(String nuevoNombre){
+    public void newNombre(String nuevoNombre, dni){
         nombre=nuevoNombre;
     }
     public void newTodo(String nNombre,int nEdad,int nDni,int nTel,String nDir){
