@@ -1,10 +1,11 @@
 package com.company;
 
+import java.util.HashSet;
+
 public class Libro {
     private String nombre;
     private int editorial;
     private float precio;
-
     //constructor
     public Libro(String nombre, int editorial, float precio){
         this.nombre = nombre;
@@ -22,6 +23,10 @@ public class Libro {
     public float getPrecio() {
         return this.precio;
     }
-    }
 
+    static HashSet<Integer> descuentos(int x){
+        HashSet<Integer> off = new HashSet<>();
+        off.add(x);
+        return off;
+    }
 }
