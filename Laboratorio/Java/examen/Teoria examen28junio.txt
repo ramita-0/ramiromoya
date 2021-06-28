@@ -1,0 +1,50 @@
+1) Una clase es un "Molde" con el cual se crearan objetos, la clase tiene variables que cualquier objeto que se cree con ella tendra, solo que el objeto dictara de que manera sera esa variable
+
+2) Un objeto es lo que se crea con la clase, el objeto tiene ya una estructura definida, pero puede cambiar sus variables a gusto
+ej:
+
+public class Auto {
+    private String nombre;
+    private String marca;
+
+    //todos los objetos creados con la clase auto tendran que tener un nombre y una marca,
+    //pero este nombre y esta marca puede variar en cada objeto creado 
+}
+
+3) Un constructor es un metodo que se llama para "construir" ese objeto, ingresandole variables por parametro o con variables por default, sin tener que ingresarselas (constructor por defecto)
+
+4)
+	Persona personaConstructorPorDefecto = new Persona();
+	Persona personaContructorParametros = new Persona("Ramiro");
+
+5) Cuantos pueda soportar tu memoria RAM
+
+6) Los atributos son las variables que tendra cada objeto cuando se cree. Representan las propiedades de un objeto
+
+7) Los metodos son "funciones" que pueden retornar cosas o no, y solo funcionan cuando los llamas
+
+8) Si puede
+
+9) This hace referencia a una variable del objeto actual
+
+10) Estar en la misma posicion en memoria porque si le pongo los mismos datos a p1 y a p2, van a ser iguales en cuanto a datos pero en su posicion van a ser diferentes por lo tanto no van a poder ser iguales.
+
+11) El operador "new" es para inicilizar variables
+
+12) Imprime false, si bien estos objetos son iguales en cuanto a variables, su posicion en memoria no es el mismo por lo tanto retorna false, si se comparasen de otra manera, podria retornar true
+
+13) 
+
+14) import es para importar alguna libreria
+
+15) La utilizamos para leer el input del usuario por consola
+
+16) Un ArrayList es un vector de un tipo de dato definido entre sus <>, puede tener elementos repetidos del tipo ingresado y esta ordenado
+
+17) Un HashSet es un ArrayList desordenado y de elementos irrepetibles, es decir, si mi HashSet es de tipo Integer, y le quiero ingresar 1,1,2,3,4,5 y quiero printear el hashset, me va a retornar 1,2,3,4,5
+
+18) Un HashMap es parecido a un HashSet pero mas complejo, es un diccionario. Contiene elementos irrepetibles como el hashset, en este caso se llaman keys, y cada key viene acompaniada de un value
+	que puede repetirse en otras keys.
+		ej: HashSet<Integer,String>
+		    1, el string al ser el value se puede repetir
+		    2, el string al ser el value se puede repetir
