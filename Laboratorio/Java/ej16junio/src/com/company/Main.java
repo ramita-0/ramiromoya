@@ -17,6 +17,7 @@ public class Main {
         int DNI;
         int answer;
 
+        //Ingreso de datos de duenios de domicilios o empresas;
         System.out.println ("\nVa a ingresar un domicilio o una empresa? \n1- Domicilio    2- Empresa    3- Exit");
         while (true){
             answer = ints.nextInt();
@@ -50,6 +51,7 @@ public class Main {
             System.out.println ("\nVa a ingresar un domicilio o una empresa?");
         }
 
+        //Asignacion de KWH a diversos usuarios registrados en el sistema;
         System.out.println("\n-Asignacion de KWH-");
         System.out.println("Domicilio o empresa? \n1- Domicilio    2- Empresa    3- Exit");
         while (true) {
