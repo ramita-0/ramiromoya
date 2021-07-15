@@ -29,3 +29,16 @@ function hoverDown(){
     margenY = nuevoValorDeMargenIzquierdo;
     cuadrado.style.marginTop = margenY + "cm";
 }
+
+function desaparecer(){
+    let cuadrado = document.getElementById("cuadrado");
+    let posicionXdeCuadrado = cuadrado.getBoundingClientRect().x;
+    let posicionYdeCuadrado = cuadrado.getBoundingClientRect().y;
+    let cuadrado2 = document.getElementById("cuadrado2");
+    let posicionXdeCuadrado2 = cuadrado2.getBoundingClientRect().x;
+    let posicionYdeCuadrado2 = cuadrado2.getBoundingClientRect().y;
+    if (posicionXdeCuadrado == posicionXdeCuadrado2 && posicionYdeCuadrado == posicionYdeCuadrado2){
+        cuadrado2.style.display = "none";
+    }
+}
+
