@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="taller18junio.js"></script>
+        <link rel="stylesheet" href="taller18junio.css">
+        <title>Taller - JQuery</title>
+    </head>
+
+    <body>
+        <input type="text" id="inputNombre" onfocus="this.value=''" value="Nombre">
+        <input type="text" id="inputApellido" onfocus="this.value=''" value="Apellido">
+        <input type="text" id="inputEdad" onfocus="this.value=''" value="Edad">
+        <br><br>
+
+        <button onclick="chequeoEdades()">-Mostrar datos ingresados-</button>
+        <br>
+
+        <h1 id="printNombre"></h1>
+        <h2 id="printApellido"></h2>
+        <h3 id="printEdad"></h3>
+    </body>
+</html>
