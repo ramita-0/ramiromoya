@@ -65,7 +65,7 @@ public class Main {
             else if ( input == 2 ){
                 System.out.println("1- Eliminar alumno");
                 System.out.println("2- Eliminar profesor");
-                System.out.println("3- Eliminar plato");
+                System.out.println("3- Eliminar plato\n");
                 input = scannerInts.nextInt();
 
                 if ( input == 1 ){

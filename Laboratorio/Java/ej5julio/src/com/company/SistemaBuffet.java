@@ -1,24 +1,26 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 
 public class SistemaBuffet {
-    private HashSet<Profesor> profesores;
-    private HashSet<Alumno> alumnos;
-    private HashSet<Plato> platos;
+    private ArrayList<Profesor> profesores;
+    private ArrayList<Alumno> alumnos;
+    private ArrayList<Plato> platos;
 
     public SistemaBuffet(){
-        this.profesores = new HashSet<Profesor>();
-        this.alumnos = new HashSet<Alumno>();
-        this.platos = new HashSet<Plato>();
+        this.profesores = new ArrayList<Profesor> ();
+        this.alumnos = new ArrayList<Alumno>();
+        this.platos = new ArrayList<Plato>();
     }
 
     //no funcionan los delete de los metodos
     public boolean checkExistenciaAlumno(Alumno alumno){
         boolean check = false;
         for ( Alumno x : this.alumnos ){
-            if ( x.getNombre().equals(alumno.getNombre()) && x.getApellido().equals(alumno.getApellido()) && x.getDivision().equals(alumno.getDivision())){
+            if (x.getNombre().equals(alumno.getNombre()) && x.getApellido().equals(alumno.getApellido()) && x.getDivision().equals(alumno.getDivision())) {
                 check = true;
+                break;
             }
         }
         return check;
@@ -39,8 +41,11 @@ public class SistemaBuffet {
         boolean check = checkExistenciaAlumno(alumno);
 
         if ( check ){
-            this.alumnos.remove(alumno);
-            System.out.println("Eliminado con exito!\n");
+            for ( Alumno x : this.alumnos){
+                if ( x.getNombre().equals(alumno.getNombre()) && x.getApellido().equals(alumno.getApellido()) && x.getDivision().equals(alumno.getDivision()) ){
+                    this.alumnos.remove(x);
+                }
+            }
         }
 
         else {
@@ -106,13 +111,13 @@ public class SistemaBuffet {
         return check;
     }
 
-    public HashSet<Alumno> getAlumnos() {
+    public ArrayList<Alumno> getAlumnos() {
         return alumnos;
     }
-    public HashSet<Profesor> getProfesores() {
+    public ArrayList<Profesor> getProfesores() {
         return profesores;
     }
-    public HashSet<Plato> getPlatos() {
+    public ArrayList<Plato> getPlatos() {
         return platos;
     }
 }
