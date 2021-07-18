@@ -1,22 +1,17 @@
 package com.company;
 
-public class Alumno {
-    private String nombre;
-    private String apellido;
+class Alumno extends Persona {
     private String division;
 
     public Alumno (String nombre, String apellido, String division){
-        this.nombre = nombre;
-        this.apellido = apellido;
+        super(nombre, apellido);
         this.division = division;
     }
+    public String toString(){
+        return this.getNombre() + " " + this.getApellido() + " " + this.getDivision();
+    }
 
-    public String getNombre() {
-        return nombre;
-    }
-    public String getApellido() {
-        return apellido;
-    }
+
     public String getDivision() {
         return division;
     }

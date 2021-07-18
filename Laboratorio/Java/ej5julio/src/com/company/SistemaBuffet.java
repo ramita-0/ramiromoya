@@ -7,29 +7,25 @@ public class SistemaBuffet {
     private ArrayList<Profesor> profesores;
     private ArrayList<Alumno> alumnos;
     private ArrayList<Plato> platos;
+    private ArrayList<Pedido> pedidos;
 
     public SistemaBuffet(){
         this.profesores = new ArrayList<Profesor> ();
         this.alumnos = new ArrayList<Alumno>();
         this.platos = new ArrayList<Plato>();
+        this.pedidos = new ArrayList<Pedido>();
     }
 
-    //no funcionan los delete de los metodos
+
     public boolean checkExistenciaAlumno(Alumno alumno){
-        boolean check = false;
-        for ( Alumno x : this.alumnos ){
-            if (x.getNombre().equals(alumno.getNombre()) && x.getApellido().equals(alumno.getApellido()) && x.getDivision().equals(alumno.getDivision())) {
-                check = true;
-                break;
-            }
-        }
-        return check;
+        return this.alumnos.stream().anyMatch(esteAlumno -> esteAlumno.getNombre().equals(alumno.getNombre()) && esteAlumno.getApellido().equals(alumno.getApellido()) && esteAlumno.getDivision().equals(alumno.getDivision()));
     }
-    public void registarAlumno(Alumno alumno){
+    public void registrarAlumno(Alumno alumno){
         boolean check = checkExistenciaAlumno(alumno);
 
         if ( !check ){
             this.alumnos.add(alumno);
+            System.out.println("Registrado con exito!");
         }
 
         else {
@@ -41,11 +37,8 @@ public class SistemaBuffet {
         boolean check = checkExistenciaAlumno(alumno);
 
         if ( check ){
-            for ( Alumno x : this.alumnos){
-                if ( x.getNombre().equals(alumno.getNombre()) && x.getApellido().equals(alumno.getApellido()) && x.getDivision().equals(alumno.getDivision()) ){
-                    this.alumnos.remove(x);
-                }
-            }
+            this.alumnos.removeIf(esteAlumno -> esteAlumno.getNombre().equals(nombre) && esteAlumno.getApellido().equals(apellido) && esteAlumno.getDivision().equals(curso));
+            System.out.println("Eliminado con exito!");
         }
 
         else {
@@ -53,21 +46,15 @@ public class SistemaBuffet {
         }
     }
 
-    //no funcionan los delete de los metodos
     public boolean checkExistenciaProfesor(Profesor profesor){
-        boolean check = false;
-        for ( Profesor x : this.profesores ){
-            if ( x.getNombre().equals(profesor.getNombre()) && x.getApellido().equals(profesor.getApellido()) ){
-                check = true;
-            }
-        }
-        return check;
+        return this.profesores.stream().anyMatch(esteProfe -> esteProfe.getNombre().equals(profesor.getNombre()) && esteProfe.getApellido().equals(profesor.getApellido()));
     }
     public void registrarProfesor(Profesor profesor){
         boolean check = checkExistenciaProfesor(profesor);
 
         if ( !check ){
             this.profesores.add(profesor);
+            System.out.println("Registrado con exito!");
         }
 
         else {
@@ -79,7 +66,7 @@ public class SistemaBuffet {
          boolean check = checkExistenciaProfesor(profesor);
 
          if ( check ){
-             this.profesores.remove(profesor);
+             this.profesores.removeIf(esteProfe -> esteProfe.getNombre().equals(nombre) && esteProfe.getApellido().equals(apellido));
              System.out.println("Eliminado con exito!\n");
          }
 
@@ -88,28 +75,79 @@ public class SistemaBuffet {
          }
     }
 
-    //terminar los metodos de los platos
     public boolean checkExistenciaPlato(Plato plato){
-        boolean check = false;
-        if ( this.platos.size() == 0 ){
+        return this.platos.stream().anyMatch(estePlato -> estePlato.getNombre().equals(plato.getNombre()));
+    }
+    public void registrarPlato(Plato plato){
+        boolean check = checkExistenciaPlato(plato);
+
+        if ( !check ){
             this.platos.add(plato);
+            System.out.println("Registrado con exito!");
         }
 
         else {
-            for ( Plato x : this.platos ){
-                if ( x.getNombre().equals(plato.getNombre())){
-                    System.out.println("Ya se encuentra el plato en el sistema!");
-                    check = true;
-                }
-
-                else {
-                    this.platos.add(plato);
-                    System.out.println("Se registro con exito!");
-                }
-            }
+            System.out.println("El plato ya se encuentra registrado en el sistema!\n");
         }
-        return check;
     }
+    public void deletePlato(String nombre){
+        Plato plato = new Plato(nombre, 0);
+        boolean check = checkExistenciaPlato(plato);
+
+        if ( check ){
+            this.platos.removeIf(estePlato -> estePlato.getNombre().equals(plato.getNombre()));
+            System.out.println("Eliminado con exito!\n");
+        }
+
+        else {
+            System.out.println("Ese plato no existe\n");
+        }
+    }
+
+
+    public void registrarPedidoAlumno(Plato plato, Persona persona, String fechaCreacionPedido, String horaEntrega){
+        Pedido pedido = new Pedido(plato, persona, fechaCreacionPedido, horaEntrega);
+        this.pedidos.add(pedido);
+        System.out.println("Se agrego el pedido con exito!");
+    }
+    public void registrarPedidoProfesor(Plato plato, Persona persona, String fechaCreacionPedido, String horaEntrega){
+        Pedido pedido = new Pedido(plato, persona, fechaCreacionPedido, horaEntrega);
+        this.pedidos.add(pedido);
+        System.out.println("Se agrego el pedido con exito!");
+    }
+    //registro anda bien
+    //falta cerrar los pedidos, y eliminarlos de la lista pedidos
+
+    public void printAlumnosRegistrados(){
+        int num = 0;
+        for ( Alumno x : this.alumnos){
+            System.out.println(num + "- " + x.getNombre() + " " + x.getApellido() + " " + x.getDivision());
+            num++;
+        }
+    }
+    public void printProfesoresRegistrados(){
+        int num = 0;
+        for ( Profesor x : this.profesores){
+            System.out.println(num + "- " + x.getNombre() + " " + x.getApellido());
+            num++;
+        }
+    }
+    public void printPlatosRegistrados(){
+        int num = 0;
+        for ( Plato x : this.platos){
+            System.out.println(num + "- " + x.getNombre() + " $" + x.getPrecio());
+            num++;
+        }
+    }
+    public void printPedidosRegistrados(){
+        int num = 0;
+        for ( Pedido x : this.pedidos){
+            System.out.println(num + "- " + x.getPersona().toString() + " " + x.getPlato().getPrecio() + "$ " + x.getHoraEntrega() + "hs");
+            num++;
+        }
+    }
+
+
 
     public ArrayList<Alumno> getAlumnos() {
         return alumnos;
@@ -119,5 +157,8 @@ public class SistemaBuffet {
     }
     public ArrayList<Plato> getPlatos() {
         return platos;
+    }
+    public ArrayList<Pedido> getPedidos() {
+        return pedidos;
     }
 }

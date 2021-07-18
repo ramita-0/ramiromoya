@@ -1,22 +1,17 @@
 package com.company;
 
-public class Profesor {
-    private String nombre;
-    private String apellido;
+class Profesor extends Persona {
     private int descuento;
 
     public Profesor(String nombre, String apellido){
-        this.nombre = nombre;
-        this.apellido = apellido;
+        super(nombre, apellido);
         this.descuento = 20; //todos los profesores tendran el mismo descuento
     }
 
-    public String getNombre() {
-        return nombre;
+    public String toString(){
+        return this.getNombre() + " " + this.getApellido();
     }
-    public String getApellido() {
-        return apellido;
-    }
+
     public int getDescuento() {
         return descuento;
     }

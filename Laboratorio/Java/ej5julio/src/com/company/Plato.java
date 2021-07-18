@@ -9,10 +9,10 @@ public class Plato {
         this.precio = precio;
     }
 
+
     public String getNombre() {
         return nombre;
     }
-
     public float getPrecio() {
         return precio;
     }

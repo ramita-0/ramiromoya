@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -18,9 +19,9 @@ public class Main {
         System.out.println("5- Salir\n");
 
         while(true){
-            System.out.println(sistema.getAlumnos());
-            System.out.println(sistema.getProfesores());
+            System.out.println(sistema.getPedidos());
             int input = scannerInts.nextInt();
+
             if ( input == 1 ){
                 System.out.println("1- Registrar alumno");
                 System.out.println("2- Registrar profesor");
@@ -35,7 +36,7 @@ public class Main {
                     String division = scannerStrings.nextLine();
                     Alumno alumno = new Alumno(nombre, apellido, division);
                     sistema.checkExistenciaAlumno(alumno);
-                    sistema.registarAlumno(alumno);
+                    sistema.registrarAlumno(alumno);
                 }
 
                 else if ( input == 2 ){
@@ -55,6 +56,7 @@ public class Main {
                     float precio = scannerFloats.nextFloat();
                     Plato plato = new Plato(nombre, precio);
                     sistema.checkExistenciaPlato(plato);
+                    sistema.registrarPlato(plato);
                 }
 
                 else {
@@ -84,7 +86,9 @@ public class Main {
                 }
 
                 else if (input == 3 ){
-
+                    System.out.println("Ingrese nombre del plato");
+                    String nombre = scannerStrings.nextLine();
+                    sistema.deletePlato(nombre);
                 }
 
                 else {
@@ -93,10 +97,44 @@ public class Main {
             }
 
             else if ( input == 3 ){
+                System.out.println("1- Alumno");
+                System.out.println("2- Profesor\n");
+                input = scannerInts.nextInt();
 
+                if ( input == 1 ){
+                    System.out.println("Que va a pedir?");
+                    sistema.printPlatosRegistrados();
+                    input = scannerInts.nextInt();
+                    ArrayList<Plato> platos = sistema.getPlatos();
+                    Plato plato = platos.get(input);
+
+                    System.out.println("\nQue alumno hace el pedido?");
+                    sistema.printAlumnosRegistrados();
+                    ArrayList<Alumno> alumnos = sistema.getAlumnos();
+                    input = scannerInts.nextInt();
+                    Alumno alumno = alumnos.get(input);
+                    String nombreAlumno = (alumno.getNombre() + " " + alumno.getApellido() + " " + alumno.getDivision());
+                    System.out.println("\nIngrese hora actual");
+                    String horaActual = scannerStrings.nextLine();
+
+                    System.out.println("\nIngrese hora de entrega");
+                    String horaEntrega = scannerStrings.nextLine();
+
+                    sistema.registrarPedidoAlumno(plato, alumno, horaActual, horaEntrega);
+                }
+
+                else if ( input == 2 ){
+                    //registrar pedido profesor
+                }
+
+                else {
+                    System.out.println("error");
+                }
             }
 
             else if ( input == 4 ){
+                sistema.printPedidosRegistrados();
+                input = scannerInts.nextInt();
 
             }
 
