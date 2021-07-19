@@ -103,16 +103,20 @@ public class SistemaBuffet {
         }
     }
 
-    //bug: si ingreso un numero de pedido cuando no se encuentra el mismo, crashea el programa
     public void registrarPedido(Plato plato, Persona persona, String fechaCreacionPedido, String horaEntrega){
         Pedido pedido = new Pedido(plato, persona, fechaCreacionPedido, horaEntrega);
         this.pedidos.add(pedido);
         System.out.println("Se agrego el pedido con exito!\n");
     }
     public void cerrarPedido(int input){
-        Pedido pedido = this.pedidos.get(input);
-        pedido.setEntregado(true);
-        this.pedidos.removeIf(estePedido -> estePedido.getEntregado());
+        if ( input >= this.pedidos.size() || this.pedidos.size() == 0 ){
+            System.out.println("No existe ese pedido\n");
+        }
+        else {
+            Pedido pedido = this.pedidos.get(input);
+            this.pedidos.removeIf(estePedido -> estePedido.equals(pedido));
+            System.out.println("Cerrado con exito!\n");
+        }
     }
 
     public void printAlumnosRegistrados(){

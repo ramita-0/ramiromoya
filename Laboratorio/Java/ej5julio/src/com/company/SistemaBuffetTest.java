@@ -38,10 +38,12 @@ class SistemaBuffetTest {
 
     @Test
     void probandoDeleteProfesor() {
-
+        sistema.getPedidos();
         sistema.printPedidosRegistrados();
-
-        sistema.cerrarPedido(0);
+        System.out.println(" ");
+        sistema.cerrarPedido(2);
+        System.out.println(" ");
+        sistema.getPedidos();
         sistema.printPedidosRegistrados();
     }
 
