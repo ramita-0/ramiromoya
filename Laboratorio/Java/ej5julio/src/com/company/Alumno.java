@@ -7,6 +7,8 @@ class Alumno extends Persona {
         super(nombre, apellido);
         this.division = division;
     }
+
+
     public String toString(){
         return this.getNombre() + " " + this.getApellido() + " " + this.getDivision();
     }

@@ -3,6 +3,8 @@ package com.company;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Scanner;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class SistemaBuffetTest {
@@ -16,6 +18,7 @@ class SistemaBuffetTest {
 
     @BeforeEach
     void setUp() {
+
         sistema = new SistemaBuffet();
         alumno = new Alumno("Ramiro", "Moya", "5c");
         alumno1 = new Alumno("Nahu", "Ourthe", "6c");
@@ -27,22 +30,22 @@ class SistemaBuffetTest {
         sistema.registrarAlumno(alumno1);
         sistema.registrarProfesor(profesor);
         sistema.registrarProfesor(profesor1);
-        sistema.registrarPedidoAlumno(plato, alumno, "15:00", "18:00");
-        sistema.registrarPedidoAlumno(plato1, alumno1, "12:00", "14:00");
-        sistema.registrarPedidoProfesor(plato, profesor, "13:00", "13:40");
-        sistema.registrarPedidoProfesor(plato1, profesor1, "17:00", "18:00");
-
+        sistema.registrarPedido(plato, alumno, "15:00", "18:00");
+        sistema.registrarPedido(plato1, alumno1, "12:00", "14:00");
+        sistema.registrarPedido(plato, profesor, "13:00", "13:40");
+        sistema.registrarPedido(plato1, profesor1, "17:00", "18:00");
     }
 
     @Test
     void probandoDeleteProfesor() {
-        assert(sistema.checkExistenciaProfesor(profesor));
-        sistema.deleteProfesor("Alfredo", "Perez");
-        assert(!sistema.checkExistenciaProfesor(profesor));
+
+        sistema.printPedidosRegistrados();
+
+        sistema.cerrarPedido(0);
+        sistema.printPedidosRegistrados();
     }
 
     @org.junit.jupiter.api.Test
     void printPedidosRegistrados() {
-        sistema.printPedidosRegistrados();
     }
 }

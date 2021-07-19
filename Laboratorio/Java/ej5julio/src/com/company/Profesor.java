@@ -8,9 +8,11 @@ class Profesor extends Persona {
         this.descuento = 20; //todos los profesores tendran el mismo descuento
     }
 
+
     public String toString(){
         return this.getNombre() + " " + this.getApellido();
     }
+
 
     public int getDescuento() {
         return descuento;

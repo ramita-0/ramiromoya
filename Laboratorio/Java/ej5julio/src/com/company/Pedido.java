@@ -15,14 +15,17 @@ public class Pedido {
         this.entregado = false;
     }
 
+
+    public void setEntregado(boolean entregado) {
+        this.entregado = entregado;
+    }
+
+
     public Plato getPlato() {
         return plato;
     }
     public Persona getPersona() {
         return persona;
-    }
-    public String getFechaCreacionPedido() {
-        return fechaCreacionPedido;
     }
     public boolean getEntregado(){
         return entregado;

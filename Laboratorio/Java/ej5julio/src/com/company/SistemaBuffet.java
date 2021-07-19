@@ -16,7 +16,6 @@ public class SistemaBuffet {
         this.pedidos = new ArrayList<Pedido>();
     }
 
-
     public boolean checkExistenciaAlumno(Alumno alumno){
         return this.alumnos.stream().anyMatch(esteAlumno -> esteAlumno.getNombre().equals(alumno.getNombre()) && esteAlumno.getApellido().equals(alumno.getApellido()) && esteAlumno.getDivision().equals(alumno.getDivision()));
     }
@@ -25,7 +24,7 @@ public class SistemaBuffet {
 
         if ( !check ){
             this.alumnos.add(alumno);
-            System.out.println("Registrado con exito!");
+            System.out.println("Registrado con exito!\n");
         }
 
         else {
@@ -38,7 +37,7 @@ public class SistemaBuffet {
 
         if ( check ){
             this.alumnos.removeIf(esteAlumno -> esteAlumno.getNombre().equals(nombre) && esteAlumno.getApellido().equals(apellido) && esteAlumno.getDivision().equals(curso));
-            System.out.println("Eliminado con exito!");
+            System.out.println("Eliminado con exito!\n");
         }
 
         else {
@@ -54,7 +53,7 @@ public class SistemaBuffet {
 
         if ( !check ){
             this.profesores.add(profesor);
-            System.out.println("Registrado con exito!");
+            System.out.println("Registrado con exito!\n");
         }
 
         else {
@@ -83,7 +82,7 @@ public class SistemaBuffet {
 
         if ( !check ){
             this.platos.add(plato);
-            System.out.println("Registrado con exito!");
+            System.out.println("Registrado con exito!\n");
         }
 
         else {
@@ -104,19 +103,17 @@ public class SistemaBuffet {
         }
     }
 
-
-    public void registrarPedidoAlumno(Plato plato, Persona persona, String fechaCreacionPedido, String horaEntrega){
+    //bug: si ingreso un numero de pedido cuando no se encuentra el mismo, crashea el programa
+    public void registrarPedido(Plato plato, Persona persona, String fechaCreacionPedido, String horaEntrega){
         Pedido pedido = new Pedido(plato, persona, fechaCreacionPedido, horaEntrega);
         this.pedidos.add(pedido);
-        System.out.println("Se agrego el pedido con exito!");
+        System.out.println("Se agrego el pedido con exito!\n");
     }
-    public void registrarPedidoProfesor(Plato plato, Persona persona, String fechaCreacionPedido, String horaEntrega){
-        Pedido pedido = new Pedido(plato, persona, fechaCreacionPedido, horaEntrega);
-        this.pedidos.add(pedido);
-        System.out.println("Se agrego el pedido con exito!");
+    public void cerrarPedido(int input){
+        Pedido pedido = this.pedidos.get(input);
+        pedido.setEntregado(true);
+        this.pedidos.removeIf(estePedido -> estePedido.getEntregado());
     }
-    //registro anda bien
-    //falta cerrar los pedidos, y eliminarlos de la lista pedidos
 
     public void printAlumnosRegistrados(){
         int num = 0;
@@ -146,7 +143,6 @@ public class SistemaBuffet {
             num++;
         }
     }
-
 
 
     public ArrayList<Alumno> getAlumnos() {
