@@ -8,5 +8,9 @@ public class Viaje {
         this.hora = hora;
         this.precio = precio;
     }
+
+    public float getPrecio() {
+        return precio;
+    }
 }
 

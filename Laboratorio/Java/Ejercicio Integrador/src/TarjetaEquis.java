@@ -14,15 +14,32 @@ public class TarjetaEquis {
         this.viajes = new ArrayList<Viaje>();
     }
 
-    public void cargarTarjeta(float monto){
-        this.saldo += monto;
-    }
 
-    public void realizarViaje(Viaje viaje){
-        this.viajes.add(viaje);
-    }
 
-    public float ultimoMontoAbonado(float monto){
+    //probar bien este metodo
+
+    public void ultimoMontoAbonado(float monto){
         this.ultimoMontoAbonado = monto;
+    }
+
+    public float getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(float saldo) {
+        this.saldo = saldo;
+    }
+
+    public boolean seSuperaElSaldoNegativo(Viaje viaje){
+
+        if (this.saldo - viaje.getPrecio() < this.saldoNegativoMaximo) {
+            return true;
+        }
+
+        else return false;
+    }
+
+    public float getSaldoNegativoMaximo() {
+        return saldoNegativoMaximo;
     }
 }
