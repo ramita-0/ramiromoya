@@ -1,4 +1,5 @@
-function chequeoEdades(){
+function chequeoEdades()
+{
     let nombre = $("#inputNombre").val();
     let apellido = $("#inputApellido").val();
     let edad = $("#inputEdad").val();
@@ -6,16 +7,41 @@ function chequeoEdades(){
     $("#printNombre").text(nombre);
     $("#printApellido").text(apellido);
     $("#printEdad").text(edad);
+}
 
-    if ( edad >= 18 ) {
-        $("body").css("background-color","blue")
-    }
+function suma()
+{
+    let num1 = $("#primerOperando").val();
+    let num2 = $("#segundoOperando").val();
+    let resultado = parseFloat(num1) + parseFloat(num2);
 
-    else if ( edad == "" || edad == "Edad") {
-        $("body").css("background-color","white")
-    }
+    $("#rta").text(resultado);
+}
+
+function resta()
+{
+    let num1 = $("#primerOperando").val();
+    let num2 = $("#segundoOperando").val();
+    let resultado = parseFloat(num1) - parseFloat(num2);
+
+    $("#rta").text(resultado)
+}
+
+function multiplicacion()
+{
+    let num1 = $("#primerOperando").val();
+    let num2 = $("#segundoOperando").val();
+    let resultado = parseFloat(num1) * parseFloat(num2);
     
-    else {
-        $("body").css("background-color","green")
-    }
+    $("#rta").text(resultado);
+}
+
+function division()
+{
+    let num1 = $("#primerOperando").val();
+    let num2 = $("#segundoOperando").val();
+    let resultado = parseFloat(num1) / parseFloat(num2);
+
+    $("#rta").text(resultado);
+
 }
