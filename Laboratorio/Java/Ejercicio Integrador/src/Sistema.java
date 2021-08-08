@@ -1,4 +1,3 @@
-import java.lang.reflect.GenericDeclaration;
 import java.util.ArrayList;
 import java.util.HashSet;
 
@@ -7,14 +6,15 @@ public class Sistema {
     private ArrayList<Pasajero> historialPasajeros;
     public int linea;
 
-    public Sistema(int linea){
+    public Sistema(int linea)
+    {
         this.pasajerosPresentes = new ArrayList<Pasajero>();
         this.historialPasajeros = new ArrayList<Pasajero>();
         this.linea = linea;
     }
 
-    public boolean realizarViaje(Viaje viaje, Pasajero pasajero){
-
+    public boolean realizarViaje(Viaje viaje, Pasajero pasajero)
+    {
         System.out.println("Costo del viaje: " + viaje.getPrecio() + "$");
 
         if (pasajero.getTarjeta().seSuperaElSaldoNegativo(viaje)){
@@ -31,24 +31,33 @@ public class Sistema {
         }
     }
 
-    public void subePasajero(Pasajero pasajero, Viaje viaje, Sistema linea){
+    public void subePasajero(Pasajero pasajero, Viaje viaje, Sistema linea)
+    {
         if (realizarViaje(viaje, pasajero)){
             linea.pasajerosPresentes.add(pasajero);
+            pasajero.getTarjeta().getViajes().add(viaje);
             linea.historialPasajeros.add(pasajero);
         }
     }
-    public void bajaPasajero(Pasajero pasajero){
-        this.pasajerosPresentes.removeIf(pasajeroActual -> pasajeroActual.equals(pasajero));
 
+    public void bajaPasajero(Pasajero pasajero)
+    {
+        this.pasajerosPresentes.removeIf(pasajeroActual -> pasajeroActual.equals(pasajero));
     }
 
-    public HashSet<Pasajero> getHistorial(){
+    public void printHistorial()
+    {
+        System.out.println(getHistorial());
+    }
+
+    public HashSet<Pasajero> getHistorial()
+    {
         HashSet<Pasajero> pasajerosQueSeHanSubido = new HashSet<>(this.historialPasajeros);
 
         return pasajerosQueSeHanSubido;
     }
-
-    public ArrayList<Pasajero> getPasajerosPresentes() {
+    public ArrayList<Pasajero> getPasajerosPresentes()
+    {
         return pasajerosPresentes;
     }
 }

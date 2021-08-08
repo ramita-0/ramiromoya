@@ -9,6 +9,7 @@ public class main {
         Pasajero pasajero2 = new Pasajero("Sol", "Goiburu", sube2);
         Sistema linea11 = new Sistema(11);
         Viaje viaje = new Viaje("25-7", "12:05", 50);
+        Viaje viaje2 = new Viaje("25-7", "12:05", 20);
 
         System.out.println(pasajero0.getSaldoTarjeta());
         System.out.println(pasajero1.getSaldoTarjeta());
@@ -36,5 +37,8 @@ public class main {
         System.out.println("pasajeros presentes: " + linea11.getPasajerosPresentes());
         linea11.bajaPasajero(pasajero1);
         System.out.println("pasajeros presentes: " + linea11.getPasajerosPresentes());
+        linea11.subePasajero(pasajero2, viaje2, linea11);
+        linea11.printHistorial();
+        System.out.println(pasajero2.ultimoMontoAbonadoPorPasajero());
     }
 }
