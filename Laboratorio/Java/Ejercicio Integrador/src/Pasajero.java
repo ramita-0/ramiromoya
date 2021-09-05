@@ -34,4 +34,15 @@ public class Pasajero {
     {
         return this.tarjeta.getSaldo();
     }
+
+    public String toString(){
+        String strings = "Nombre: " + this.nombre + "\nApellido: " + this.apellido + "\n\nViajes realizados:";
+
+        for (Viaje viaje : this.getTarjeta().getViajes()){
+            // faltaria implementacion de un buen funcionamiento del getSaldo
+            String string = ("hora: " + viaje.getHora() + " | fecha: " + viaje.getFecha() + " | precio: " + viaje.getPrecio() + " | saldo: " + this.tarjeta.getSaldo());
+            strings = strings + "\n" + string;
+        }
+        return strings;
+    }
 }

@@ -10,8 +10,21 @@ public class Viaje {
         this.precio = precio;
     }
 
+    public String getFecha() {
+        return fecha;
+    }
     public float getPrecio()
     {
         return precio;
     }
+    public String getHora() {
+        return hora;
+    }
+
+    @Override
+    public String toString(){
+        String string = ("hora: " + this.hora + " | fecha: " + this.fecha + " | precio: " + this.precio);
+        return string;
+    }
 }
+

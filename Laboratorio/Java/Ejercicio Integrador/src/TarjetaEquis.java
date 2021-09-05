@@ -36,4 +36,14 @@ public class TarjetaEquis {
     {
         this.saldo = saldo;
     }
+
+    public String toString(){
+        String strings = "";
+        for (Viaje viaje : this.viajes){
+            // Habria que agregar un atributo que sea "saldoTrasViajar" (e implementarlo) en la clase Viaje para que el metodo getSaldo() funcione como realmente queremos
+            String string = ("hora: " + viaje.getHora() + " | fecha: " + viaje.getFecha() + " | precio: " + viaje.getPrecio() + " | saldo: " + getSaldo());
+            strings = strings + string + "\n";
+        }
+        return strings;
+    }
 }
