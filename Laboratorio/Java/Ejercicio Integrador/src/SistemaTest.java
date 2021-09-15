@@ -1,95 +1,55 @@
 import org.junit.jupiter.api.Test;
 
-import javax.sound.sampled.Line;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class SistemaTest {
+    TarjetaEquis sube = new TarjetaEquis(0, -30);
+    Pasajero p = new Pasajero("a", "b", sube);
+    Sistema linea11 = new Sistema(11);
+    Viaje viaje = new Viaje("12-2", "12", 40);
 
-    @org.junit.jupiter.api.Test
-    public void realizarViaje() {
+    @Test
+    public boolean realizarViaje(Viaje viaje, Pasajero pasajero) {
+        System.out.println("Costo del viaje: " + viaje.getPrecio() + "$");
+
+        if (p.getTarjeta().seSuperaElSaldoNegativo(viaje)){
+            System.out.println("Saldo insuficiente");
+            return false;
+        }
+
+        else {
+            float nuevoSaldo = p.getTarjeta().getSaldo() - viaje.getPrecio();
+            p.getTarjeta().setSaldo(nuevoSaldo);
+            System.out.println("\nBienvenido!");
+            System.out.println("Saldo restante: " + p.getSaldoTarjeta());
+            return true;
+        }
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void subePasajero() {
-        TarjetaEquis sube = new TarjetaEquis(1, -30);
-        Pasajero p = new Pasajero("x", "x", sube);
-        Viaje v = new Viaje("2/3/21", "12:03", 21);
-        Sistema linea12 = new Sistema(11);
+        if (realizarViaje(viaje, p)){
+            linea11.getPasajerosPresentes().add(p);
+            p.getTarjeta().getViajes().add(viaje);
+            linea11.getHistorialPasajeros().add(p);
+        }
 
-        linea12.subePasajero(p, v, linea12);
-
+        assertTrue(linea11.getPasajerosPresentes().contains(p));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void bajaPasajero() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void printHistorial() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void getHistorial() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void getPasajerosPresentes() {
-    }
-
-    @org.junit.jupiter.api.BeforeEach
-    public void setUp() {
-    }
-
-    @org.junit.jupiter.api.AfterEach
-    public void tearDown() {
-    }
-
-    @org.junit.jupiter.api.Test
-    public void testRealizarViaje() {
-    }
-
-    @org.junit.jupiter.api.Test
-    public void testSubePasajero() {
-    }
-
-    @org.junit.jupiter.api.Test
-    public void testBajaPasajero() {
-    }
-
-    @org.junit.jupiter.api.Test
-    public void testPrintHistorial() {
-    }
-
-    @org.junit.jupiter.api.Test
-    public void testGetHistorial() {
-    }
-
-    @org.junit.jupiter.api.Test
-    public void testGetPasajerosPresentes() {
-    }
-
-    @Test
-    public void testRealizarViaje1() {
-    }
-
-    @Test
-    public void testSubePasajero1() {
-    }
-
-    @Test
-    public void testBajaPasajero1() {
-    }
-
-    @Test
-    public void testPrintHistorial1() {
-    }
-
-    @Test
-    public void testGetHistorial1() {
-    }
-
-    @Test
-    public void testGetPasajerosPresentes1() {
     }
 }

@@ -47,15 +47,13 @@ public class Sistema {
 
     public void printHistorial()
     {
-        System.out.println(getHistorial());
+        System.out.println(getHistorialPasajeros());
     }
 
-    public HashSet<Pasajero> getHistorial()
-    {
-        HashSet<Pasajero> pasajerosQueSeHanSubido = new HashSet<>(this.historialPasajeros);
-
-        return pasajerosQueSeHanSubido;
+    public ArrayList<Pasajero> getHistorialPasajeros() {
+        return historialPasajeros;
     }
+
     public ArrayList<Pasajero> getPasajerosPresentes()
     {
         return pasajerosPresentes;
