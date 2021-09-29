@@ -1,0 +1,8 @@
+1) Si por el hecho de que la sala sea 3d no implica otros servicios, solo agregaria un atributo a la clase q sea "private String tipo;" en la cual pondria o 2D o 3D.
+En el caso de q por ser 3D tengas otros servicios dentro de la sala, ahi crearia dos clases, "Sala2D, Sala3D"
+
+2) Agregaria un atributo que sea "private int edad;" en la clase Visitante
+
+3) Habria q hacer una modificacion a la clase Cine para que guarde las personas que entraron al cine, y que la clase Visitante guarde su horario de entrada al cine.
+
+
