@@ -1,0 +1,5 @@
+-por que tiene que tener un constructor default la conexion a la base?
+-para que sirve el metodo de colocarCamposEnLista? Osea cual es la finalidad, para que me sirve saber los campos de una tabla de la base
+-como puedo hacer un solo metodo que printee lo que yo quiera? como esta estructurado imprimirDatos() solo me deja imprimir con la estructura
+	(id + " " + nombre + " " + edad), pero si le quiero pasar el resultset de mostrarColumnas, no me lo va a poder imprimir como debe, ya
+	que esta implementado de manera que solo imprime por consola alumnos.
