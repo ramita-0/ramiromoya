@@ -18,11 +18,19 @@ public class AccesoBaseDeDatos {
     private String nombreTabla;
 
     public AccesoBaseDeDatos(){
+        this.nombreBaseDeDatos = "mydb";
+        this.nombreTabla = "alumno";
+    }
+
+    public AccesoBaseDeDatos(String nombreBase, String nombreTabla){
+        this.nombreBaseDeDatos = nombreBase;
+        this.nombreTabla = nombreTabla;
     }
 
     public void conectar(String user, String password) {
 
-        String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+        //String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos;
 
         try {
 
@@ -61,7 +69,6 @@ public class AccesoBaseDeDatos {
         ResultSet resultado = null;
 
         try {
-            // pq no andas flaco??????! //de alguna manera conexion es null...
             Statement sentencia = conexion.createStatement();
             resultado = sentencia.executeQuery(consulta);
 
@@ -134,7 +141,7 @@ public class AccesoBaseDeDatos {
         HashMap<String,Object> mapASerializar = new HashMap<>();
 
         ArrayList<Persona> alumnos = new ArrayList<>();
-        //POR QUE ME TIRAS NULL POINTERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR?!!!?!!?!?!!?!!!!?!!?!?!? SI ESTA CONECTADO A LA DB
+
         ResultSet resultado = this.obtenerResultado("SELECT * FROM alumno");
 
         ObjectMapper mapper = new ObjectMapper();
@@ -152,8 +159,7 @@ public class AccesoBaseDeDatos {
                 Persona alumnoActual = new Persona(id, nombre, edad);
                 alumnos.add(alumnoActual);
             }
-            mapASerializar.put("alumnos", alumnos);
-        System.out.println(mapASerializar);
+            mapASerializar.put("alumno", alumnos);
         }
 
         catch(SQLException e1){

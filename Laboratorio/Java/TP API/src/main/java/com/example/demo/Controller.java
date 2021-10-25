@@ -13,18 +13,16 @@ import java.util.*;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class Controller {
 
-    //@Autowired
+    @Autowired
     private AccesoBaseDeDatos db;
 
     public Controller() {
+        this.db = new AccesoBaseDeDatos();
     }
 
     @RequestMapping(value = "/datos/alumnos", method = RequestMethod.GET)
     public ResponseEntity<Object> obtenerPaginas() {
-        System.out.println(this.getDb().getConexion());
-        System.out.println(this.getDb().getNombreBaseDeDatos());
-        System.out.println(this.getDb().getNombreTabla());
-
+        this.db.conectar("alumno","alumnoipm");
         HashMap<String,Object> datos = db.obtenerDatos();
         return new ResponseEntity<>(datos, HttpStatus.OK);
     }
