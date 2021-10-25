@@ -13,16 +13,18 @@ import java.util.*;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class Controller {
 
-    @Autowired
+    //@Autowired
     private AccesoBaseDeDatos db;
 
     public Controller() {
-        this.db = new AccesoBaseDeDatos("mydb", "alumno");
-        this.db.conectar("apitest","123");
     }
 
     @RequestMapping(value = "/datos/alumnos", method = RequestMethod.GET)
     public ResponseEntity<Object> obtenerPaginas() {
+        System.out.println(this.getDb().getConexion());
+        System.out.println(this.getDb().getNombreBaseDeDatos());
+        System.out.println(this.getDb().getNombreTabla());
+
         HashMap<String,Object> datos = db.obtenerDatos();
         return new ResponseEntity<>(datos, HttpStatus.OK);
     }
@@ -35,5 +37,8 @@ public class Controller {
         db.agregarAlumno(nuevoAlumno);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-}
 
+    public AccesoBaseDeDatos getDb() {
+        return db;
+    }
+}

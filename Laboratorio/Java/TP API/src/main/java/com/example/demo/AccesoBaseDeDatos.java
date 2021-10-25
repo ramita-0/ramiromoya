@@ -18,12 +18,6 @@ public class AccesoBaseDeDatos {
     private String nombreTabla;
 
     public AccesoBaseDeDatos(){
-
-    }
-
-    public AccesoBaseDeDatos(String nombreBaseDeDatos, String nombreTabla) {
-        this.nombreBaseDeDatos = nombreBaseDeDatos;
-        this.nombreTabla = nombreTabla;
     }
 
     public void conectar(String user, String password) {
@@ -135,7 +129,6 @@ public class AccesoBaseDeDatos {
         return nombresDeCampos;
     }
 
-
     public HashMap<String,Object> obtenerDatos(){
 
         HashMap<String,Object> mapASerializar = new HashMap<>();
@@ -173,6 +166,18 @@ public class AccesoBaseDeDatos {
 
     public void agregarAlumno(Alumno alumno) {
         /** completar **/
+    }
+
+    public Connection getConexion() {
+        return conexion;
+    }
+
+    public String getNombreBaseDeDatos() {
+        return nombreBaseDeDatos;
+    }
+
+    public String getNombreTabla() {
+        return nombreTabla;
     }
 
     /*
