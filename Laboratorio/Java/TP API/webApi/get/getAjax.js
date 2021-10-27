@@ -1,9 +1,12 @@
 function getTodos(){
+    
+    //llamada para getear todos los alumnos
     $.ajax({
         url: "http://localhost:8080/api/datos/alumnos",
         type: 'GET',
     })
 
+    // si es exitosa la llamada, muestra un json con formato
     .done(function (data) {
         $("#response").text(JSON.stringify(data,null,"\t"));
     })
@@ -20,7 +23,8 @@ function getTodos(){
 function getPorId(){
 
     var error = checkInputError();
-    console.log(error);
+    
+    //si no hay error, hace la llamada
     if (!error){
 
         var id = $("#inputIdGet").val();
@@ -30,6 +34,7 @@ function getPorId(){
             type: 'GET',
         })
     
+        // si la llamada es exitosa, muestra un json con formato
         .done(function (data) {
             $("#response").text(JSON.stringify(data,null,"\t"));
         })

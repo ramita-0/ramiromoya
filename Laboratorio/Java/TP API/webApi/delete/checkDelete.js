@@ -1,9 +1,9 @@
 function checkInputError(){
-    var id = $("#inputIdGet").val();
+    var id = $("#inputIdDelete").val();
 
     var error = false;
 
-    // si no hay input en el campo, da error
+    // si el campo esta vacio da error
     if (id == ""){
         alert("Ingrese un id");
         return !error;

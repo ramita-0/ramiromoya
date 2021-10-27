@@ -3,6 +3,10 @@
 
     <head>
 
+        <script type="text/javascript" src="../jquery.js"></script>
+        <script type="text/javascript" src="checkDelete.js"></script>
+        <script type="text/javascript" src="deleteAjax.js"></script>
+
     </head>
     
     <body>
@@ -10,7 +14,8 @@
         <div id="divDeleteAlumno">
             <h3>Delete Alumno</h3>
             <input id="inputIdDelete" placeholder="Id" type="number">
-            <button onclick="funcion2()">delete</button>
+            <button onclick="deletePorId()">delete</button>
+            <pre id="response"></pre>
         </div>
         
     </body>

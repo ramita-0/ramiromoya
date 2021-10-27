@@ -62,6 +62,19 @@ public class Controller {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/datos/alumnos/{id}", method = RequestMethod.DELETE)
+    public ResponseEntity<Object> deletearAlumno(@PathVariable int id){
+
+        //conectar en linux
+        //this.db.conectar("alumno","alumnoipm");
+
+        //conectar en windows
+        this.db.conectar("apitest","123");
+
+        db.modificarTabla("DELETE FROM alumnos WHERE id = " + id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
     public AccesoBaseDeDatos getDb() {
         return db;
     }
