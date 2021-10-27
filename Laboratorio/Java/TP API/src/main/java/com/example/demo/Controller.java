@@ -21,18 +21,44 @@ public class Controller {
     }
 
     @RequestMapping(value = "/datos/alumnos", method = RequestMethod.GET)
-    public ResponseEntity<Object> obtenerPaginas() {
-        this.db.conectar("alumno","alumnoipm");
-        HashMap<String,Object> datos = db.obtenerDatos();
+    public ResponseEntity<Object> obtenerDatos() {
+
+        //conectar en linux
+        //this.db.conectar("alumno","alumnoipm");
+
+        //conectar en windows
+        this.db.conectar("apitest","123");
+
+        HashMap<String,Object> datos = db.serializarQuery("SELECT * FROM alumnos");
         return new ResponseEntity<>(datos, HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/datos/alumnos/{id}", method = RequestMethod.GET)
+    public ResponseEntity<Object> obtenerInformacionDeAlumno(@PathVariable int id){
+
+        //conectar en linux
+        //this.db.conectar("alumno","alumnoipm");
+
+        //conectar en windows
+        this.db.conectar("apitest","123");
+
+        HashMap<String, Object> datos = db.serializarQuery("SELECT * FROM alumnos WHERE id = " + id);
+        return new ResponseEntity<>(datos,HttpStatus.OK);
+    }
+
     @RequestMapping(value = "/datos/alumnos", method = RequestMethod.POST)
-    public ResponseEntity<Object> agregarPagina(@RequestBody HashMap alumno) {
-        String nombre = (String) alumno.get("nombre");
-        int edad = (int) alumno.get("edad");
-        Alumno nuevoAlumno = new Alumno(nombre, edad);
-        db.agregarAlumno(nuevoAlumno);
+    public ResponseEntity<Object> postearAlumno(@RequestBody HashMap<String,String> alumno) {
+
+        //conectar en linux
+        //this.db.conectar("alumno","alumnoipm");
+
+        //conectar en windows
+        this.db.conectar("apitest","123");
+
+        String nombre = alumno.get("nombre");
+        String edad = alumno.get("edad");
+
+        db.modificarTabla("INSERT INTO alumnos (nombre, edad) VALUES (" + "'" + nombre + "'" + ", " + edad + ")");
         return new ResponseEntity<>(HttpStatus.OK);
     }
 

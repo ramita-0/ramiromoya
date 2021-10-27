@@ -5,3 +5,6 @@
 	que esta implementado de manera que solo imprime por consola alumnos.
 
 -para que es el metodo mostrarColumnas()?
+
+-en "public ResponseEntity<Object> postearAlumno(@RequestBody HashMap<String,String> alumno)"
+    es correcto indicarle que es String String? En este caso creo que sirve pero en otro no se si es viable

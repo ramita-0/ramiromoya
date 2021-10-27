@@ -1,0 +1,10 @@
+#divPostAlumno{
+    padding: 10px;
+    width: 250px;
+    border: 2px;
+    border-style: solid;
+}
+
+#inputNombre{
+    margin-bottom: 15px;
+}

@@ -14,12 +14,12 @@ import java.util.HashSet;
 public class AccesoBaseDeDatos {
 
     private Connection conexion;
-    private String nombreBaseDeDatos;
-    private String nombreTabla;
+    private final String nombreBaseDeDatos;
+    private final String nombreTabla;
 
     public AccesoBaseDeDatos(){
         this.nombreBaseDeDatos = "mydb";
-        this.nombreTabla = "alumno";
+        this.nombreTabla = "alumnos";
     }
 
     public AccesoBaseDeDatos(String nombreBase, String nombreTabla){
@@ -28,9 +28,11 @@ public class AccesoBaseDeDatos {
     }
 
     public void conectar(String user, String password) {
+        //windows
+        String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
-        //String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-        String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos;
+        //linux
+        //String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos;
 
         try {
 
@@ -48,15 +50,60 @@ public class AccesoBaseDeDatos {
     }
 
 
+    public ResultSet obtenerResultado(String query){
+
+        ResultSet resultado = null;
+
+        try {
+            Statement sentencia = conexion.createStatement();
+            resultado = sentencia.executeQuery(query);
+
+
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return resultado;
+    }
+
+    public HashMap<String, Object> serializarQuery(String query){
+
+        ResultSet resultado = this.obtenerResultado(query);
+        HashMap<String, Object> json = new HashMap<>();
+        ArrayList<Alumno> alumnos = new ArrayList<>();
+
+        try {
+
+            while (resultado.next()){
+
+                int id = resultado.getInt("id");
+                String nombre = resultado.getString("nombre");
+                int edad = resultado.getInt("edad");
+
+                Alumno alumnoActual = new Alumno(id, nombre, edad);
+                alumnos.add(alumnoActual);
+            }
+            json.put("persona(s)", alumnos);
+        }
+
+        catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return json;
+    }
 
 
 
 
-    public void modificarTabla(String consulta) {
+
+
+
+    public void modificarTabla(String query) {
         /* INSERT, UPDATE, DELETE */
         try {
             Statement sentencia = this.conexion.createStatement();
-            sentencia.executeUpdate(consulta);
+            sentencia.executeUpdate(query);
             sentencia.close();
 
         } catch (SQLException excepcion) {
@@ -64,27 +111,7 @@ public class AccesoBaseDeDatos {
         }
     }
 
-    public ResultSet obtenerResultado(String consulta){
 
-        ResultSet resultado = null;
-
-        try {
-            Statement sentencia = conexion.createStatement();
-            resultado = sentencia.executeQuery(consulta);
-
-
-        } catch (SQLException excepcion) {
-            excepcion.printStackTrace();
-        }
-        return resultado;
-    }
-
-    //querys
-    public ResultSet seleccionarTodo(){
-        String consulta = "SELECT * FROM " + this.nombreTabla;
-        ResultSet resultado = this.obtenerResultado(consulta);
-        return resultado;
-    }
 
     //print querys
     public void imprimirDatosAlumno(ResultSet set) {
@@ -136,60 +163,27 @@ public class AccesoBaseDeDatos {
         return nombresDeCampos;
     }
 
-    public HashMap<String,Object> obtenerDatos(){
-
-        HashMap<String,Object> mapASerializar = new HashMap<>();
-
-        ArrayList<Persona> alumnos = new ArrayList<>();
-
-        ResultSet resultado = this.obtenerResultado("SELECT * FROM alumno");
-
-        ObjectMapper mapper = new ObjectMapper();
-
-        String objetoJson = null;
-
-        try {
-
-            while (resultado.next()){
-
-                int id = resultado.getInt("id");
-                String nombre = resultado.getString("nombre");
-                int edad = resultado.getInt("edad");
-
-                Persona alumnoActual = new Persona(id, nombre, edad);
-                alumnos.add(alumnoActual);
-            }
-            mapASerializar.put("alumno", alumnos);
-        }
-
-        catch(SQLException e1){
-            e1.printStackTrace();
-        }
-
-        return mapASerializar;
-    }
 
 
     public void agregarAlumno(Alumno alumno) {
         /** completar **/
     }
 
+
+
+
+
+
+
+
+
     public Connection getConexion() {
         return conexion;
     }
-
     public String getNombreBaseDeDatos() {
         return nombreBaseDeDatos;
     }
-
     public String getNombreTabla() {
         return nombreTabla;
     }
-
-    /*
-    Colocar mysql-connector-java-8.0.21.jar en una carpeta llamada lib
-
-    File -> Project Structure -> + -> JARs y directorios ->
-    seleccionar mysql-connector-java-8.0.21.jar -> tildar -> aplicar -> ok
-    */
 }
