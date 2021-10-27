@@ -27,6 +27,8 @@ public class AccesoBaseDeDatos {
         this.nombreTabla = nombreTabla;
     }
 
+
+    // realiza la conexion a la db
     public void conectar(String user, String password) {
         //windows
         String url = "jdbc:mysql://localhost:3306/" + this.nombreBaseDeDatos + "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
@@ -49,7 +51,7 @@ public class AccesoBaseDeDatos {
         }
     }
 
-
+    // devuelve el resultado del query, sin serializarlo
     public ResultSet obtenerResultado(String query){
 
         ResultSet resultado = null;
@@ -57,8 +59,6 @@ public class AccesoBaseDeDatos {
         try {
             Statement sentencia = conexion.createStatement();
             resultado = sentencia.executeQuery(query);
-
-
         }
         catch (SQLException e) {
             e.printStackTrace();
@@ -66,6 +66,7 @@ public class AccesoBaseDeDatos {
         return resultado;
     }
 
+    // serializa el resultset del metodo de arriba
     public HashMap<String, Object> serializarQuery(String query){
 
         ResultSet resultado = this.obtenerResultado(query);
@@ -83,7 +84,7 @@ public class AccesoBaseDeDatos {
                 Alumno alumnoActual = new Alumno(id, nombre, edad);
                 alumnos.add(alumnoActual);
             }
-            json.put("persona(s)", alumnos);
+            json.put("alumno(s)", alumnos);
         }
 
         catch (SQLException e) {
@@ -93,12 +94,7 @@ public class AccesoBaseDeDatos {
         return json;
     }
 
-
-
-
-
-
-
+    // modifica una tabla de la db, sirve para inserts, updates y deletes
     public void modificarTabla(String query) {
         /* INSERT, UPDATE, DELETE */
         try {
@@ -110,71 +106,6 @@ public class AccesoBaseDeDatos {
             excepcion.printStackTrace();
         }
     }
-
-
-
-    //print querys
-    public void imprimirDatosAlumno(ResultSet set) {
-
-        ResultSet resultado = set;
-
-        try {
-
-            while (resultado.next()) {
-
-                int id = resultado.getInt("id");
-                String nombre = resultado.getString("nombre");
-                int edad = resultado.getInt("edad");
-
-                System.out.println(id + " " + nombre + " " + edad);
-            }
-
-            resultado.close();
-
-        } catch (SQLException excepcion) {
-            excepcion.printStackTrace();
-        }
-    }
-
-    //getColumnas
-    public ResultSet mostrarColumnas(){
-        String consulta = "SHOW COLUMNS FROM " + this.nombreTabla;
-        ResultSet resultado = this.obtenerResultado(consulta);
-        return resultado;
-    }
-
-    //arraylist de las columnas... ?
-    public ArrayList<String> colocarCamposEnLista() {
-
-        ArrayList<String> nombresDeCampos = new ArrayList<>();
-        ResultSet resultado = this.mostrarColumnas();
-
-        try {
-
-            while (resultado.next()) {
-                String nombreDeColumna = resultado.getString("field");
-                nombresDeCampos.add(nombreDeColumna);
-            }
-
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
-
-        return nombresDeCampos;
-    }
-
-
-
-    public void agregarAlumno(Alumno alumno) {
-        /** completar **/
-    }
-
-
-
-
-
-
-
 
 
     public Connection getConexion() {

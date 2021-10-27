@@ -17,13 +17,13 @@ USE `mydb` ;
 -- -----------------------------------------------------
 -- Table `mydb`.`alumno`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`alumno` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `nombre` VARCHAR(45) NOT NULL,
-  `edad` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE INDEX `id_UNIQUE` (`id` ASC))
-ENGINE = InnoDB;
+CREATE TABLE IF NOT EXISTS `mydb`.`alumnos` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `nombre` VARCHAR(45) NOT NULL,
+    `edad` INT NOT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE INDEX `id_UNIQUE` (`id` ASC))
+    ENGINE = InnoDB;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
