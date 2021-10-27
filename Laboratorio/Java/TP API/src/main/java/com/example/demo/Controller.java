@@ -21,7 +21,7 @@ public class Controller {
     }
 
     @RequestMapping(value = "/datos/alumnos", method = RequestMethod.GET)
-    public ResponseEntity<Object> obtenerDatos() {
+    public ResponseEntity<Object> infoTodosLosAlumnos() {
 
         //conectar en linux
         //this.db.conectar("alumno","alumnoipm");
@@ -34,7 +34,7 @@ public class Controller {
     }
 
     @RequestMapping(value = "/datos/alumnos/{id}", method = RequestMethod.GET)
-    public ResponseEntity<Object> obtenerInformacionDeAlumno(@PathVariable int id){
+    public ResponseEntity<Object> infoAlumno(@PathVariable int id){
 
         //conectar en linux
         //this.db.conectar("alumno","alumnoipm");
@@ -47,7 +47,7 @@ public class Controller {
     }
 
     @RequestMapping(value = "/datos/alumnos", method = RequestMethod.POST)
-    public ResponseEntity<Object> postearAlumno(@RequestBody HashMap<String,String> alumno) {
+    public ResponseEntity<Object> postAlumno(@RequestBody HashMap<String,String> alumno) {
 
         //conectar en linux
         //this.db.conectar("alumno","alumnoipm");
@@ -63,7 +63,7 @@ public class Controller {
     }
 
     @RequestMapping(value = "/datos/alumnos/{id}", method = RequestMethod.DELETE)
-    public ResponseEntity<Object> deletearAlumno(@PathVariable int id){
+    public ResponseEntity<Object> deleteAlumno(@PathVariable int id){
 
         //conectar en linux
         //this.db.conectar("alumno","alumnoipm");
@@ -75,6 +75,22 @@ public class Controller {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/datos/alumnos", method = RequestMethod.PATCH)
+    public ResponseEntity<Object> patchAlumno(@RequestBody HashMap<String,String> alumno) {
+
+        //conectar en linux
+        //this.db.conectar("alumno","alumnoipm");
+
+        //conectar en windows
+        this.db.conectar("apitest","123");
+
+        int id = Integer.parseInt(alumno.get("id"));
+        String nombre = alumno.get("nombre");
+        String edad = alumno.get("edad");
+
+        db.modificarTabla("UPDATE alumnos SET nombre = " + "'" + nombre + "'" + ", edad = " + edad + " WHERE id = " + id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
     public AccesoBaseDeDatos getDb() {
         return db;
     }

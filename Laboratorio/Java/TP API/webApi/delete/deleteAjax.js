@@ -12,7 +12,10 @@ function deletePorId(){
         })
     
         .done(function (data) {
+            
+            // se vacia el campo de id y se indica que fue exitosa la llamada
             $("#response").text("done");
+            $("#inputIdDelete").val("");
         })
     
         .fail(function (jqXHR, textStatus, errorThrown) {
