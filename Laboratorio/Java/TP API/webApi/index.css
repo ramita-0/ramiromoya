@@ -1,0 +1,24 @@
+
+ul a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    text-decoration-line: none;
+}
+
+ul li{
+    font-size: large;
+    padding: 10px;
+    list-style: none;
+    display: inline;
+}
+
+a:hover {
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color: black;
+}
