@@ -1,0 +1,6 @@
+abstract class Mascota;
+    -nombre, fecha nacimiento, dueno
+
+Perro,gato,etc extends Mascota
+    -array de fechas en las que visito al vet
+
