@@ -10,8 +10,6 @@ public class ProductoPerecedero extends ProductoAlimenticio {
     }
 
 
-
-
     public float getTemperaturaMinimaDeFrio() {
         return temperaturaMinimaDeFrio;
     }

@@ -8,6 +8,7 @@ public abstract class ProductoAlimenticio extends ProductoDeSuper{
     public ProductoAlimenticio(String nombre, String origen, int codigo, float costo, int cantDiasParaVencerse, float descuento){
         super(nombre, origen, codigo, costo);
         this.cantDiasParaVencerse = cantDiasParaVencerse;
+       // no deberia asignarle un valor por referencia del constructor, deberian tener todos el mismo valor
         ProductoAlimenticio.descuento = descuento;
     }
 

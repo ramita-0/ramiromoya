@@ -113,22 +113,83 @@ public class SistemaSupermercado {
 
                 ProductoDeSuper producto = new ProductoDeRefrigeracion(nombre, origen, codigo, costo, cantDiasDeGarantia, recargoPorEnvio, litrosDeCapacidad);
                 this.productosVendidos.add(producto);
+
+                //ej de serializado
+                serializarObjeto(producto);
+
+                //ej de deserializado
+                deserializarObjeto(serializarObjeto(producto));
             }
         }
     }
 
     //falta importar las librerias de jackson
-    public void serializarObjetos(){
+    public static String serializarObjeto(ProductoDeSuper producto){
 
-        //hago el metodo para serializar todos los vendidos, se podria buscar un objeto en especifico igualmente
-        //tendria q hacerlo estatico pero como lo hice no puedo porque tengo q acceder al array del objeto SistemaSuepermercado
         ObjectMapper mapper = new ObjectMapper();
 
         HashMap<String,Object> mapASerializar = new HashMap<>();
-        mapASerializar.put("productos vendidos", this.productosVendidos);
+        mapASerializar.put("productos vendidos", producto);
 
-        String objetoJSON = mapper.writeValueAsString(mapASerializar);
+        String objetoJSON = null;
+
+        try {
+            objetoJSON = mapper.writeValueAsString(mapASerializar);
+
+        }catch (com.fasterxml.jackson.core.JsonProcessingException e){
+            e.printStackTrace();
+        }
+
         System.out.println(objetoJSON);
+        return objetoJSON;
     }
 
+    //falta importar las librerias de jackson
+    public static Object deserializarObjeto(String objetoJSON){
+        ObjectMapper mapper = new ObjectMapper();
+        HashMap objeto = null;
+
+        try {
+            objeto = mapper.readValue(objetoJSON, HashMap.class);
+
+        }catch (com.fasterxml.jackson.core.JsonProcessingException e){
+            e.printStackTrace();
+        }
+
+        return objeto;
+    }
+
+    public HashSet<String> productosAptosParaHipertensos(){
+        // plantearia agregar un atributo a esta clase que sea un set de ProductosNoPerecederos asi cuando ingresas un nuevo objeto de tipo NoPerecedero, si cumple
+        // con la condicion de mg de sodio se agrega a ese set, siento que esta solucion es media pesada para lo que se podria hacer realmente
+
+        HashSet<String> productosNoPerecederos = new HashSet<>();
+
+        for (ProductoDeSuper productoActual: this.productosALaVenta){
+            if (productoActual.getClass().getName().equals("ProductoNoPerecedero")) {
+                // casteo el objeto a ProductoNoPerecedero
+                ProductoNoPerecedero productoCasteado = (ProductoNoPerecedero) productoActual;
+                if (productoCasteado.getMgDeSodio() <= 1500) {
+                    productosNoPerecederos.add(productoCasteado.getNombre());
+                }
+            }
+        }
+        return productosNoPerecederos;
+    }
+
+    public HashMap<Integer,Float> productosRefrigerantesConGranCapacidad(){
+
+        HashMap<Integer,Float> productosRefrigerantesConGranCapacidad = new HashMap<>();
+        //capacidad >= 300lts, origen argentino y
+
+        for (ProductoDeSuper productoActual: this.productosALaVenta){
+            if (productoActual.getClass().getName().equals("ProductoDeRefrigeracion")){
+                ProductoDeRefrigeracion productoCasteado = (ProductoDeRefrigeracion) productoActual;
+                if (productoCasteado.getLitrosDeCapacidad() >= 300 && productoCasteado.getOrigen().equals("Argentino")){
+                    productosRefrigerantesConGranCapacidad.put(productoCasteado.getCodigo(), productoCasteado.getLitrosDeCapacidad());
+                }
+            }
+        }
+        return productosRefrigerantesConGranCapacidad;
+    }
 }

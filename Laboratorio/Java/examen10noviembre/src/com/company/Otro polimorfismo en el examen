@@ -1,0 +1,15 @@
+Se podria hacer una superclase abstracta llamada Persona, y subclases instanciables llamadas Dueno, Empleado
+(entonces Persona p1 = new Dueno(); , etc)
+
+// ya que estamos le implemento una interfaz
+Tambien se podria implementar una interfaz para Persona que tenga los metodos
+ +calcularSalario();
+ +calcularAsistencia();
+ +calcularFaltas();
+
+otro caso de polimorfismo:
+(no tiene que ver con el examen, pero no me acuerdo si lo que pedias profe era con respecto al examen o no)
+
+// nota: seguro se pueden abstraer mas las clases de herviboro carnvoro y omnivoro, pero no se tanto de dinosaurios jajaja
+
+Superclase abstracta Dinosaurio, subclases instanciables Herviboro, Carnivoro, Omnivoro.

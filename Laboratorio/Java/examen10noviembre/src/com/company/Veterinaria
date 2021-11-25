@@ -4,3 +4,45 @@ abstract class Mascota;
 Perro,gato,etc extends Mascota
     -array de fechas en las que visito al vet
 
+                   -----------------------------------
+                   | (abstract)Mascota               |
+                   -----------------------------------
+                   | -nombre                         |
+                   | -fecha nacimiento               |
+                   | -dueno                          |
+                   | -ArrayList<Date> fechasAsistidas|
+                   -----------------------------------
+                                  ^
+                               --------
+                             /     |    \
+                           /       |      \
+        /------------------        |        ---------\
+     Perro                         |                  Tortuga
+-String raza                       |              -static VecesAasistirAnuales = 1
+-static VecesAasistirAnuales = 4   |
+                                   |
+                                   |
+                                   |
+                                 Gato
+                               -String raza
+                               -static VecesAasistirAnuales = 2
+
+
+Se puede hacer una interfaz para los animales
+que utilize los metodos
+  -boolean cumpleConVisitasAnuales;
+  -boolean tieneAsistenciaPerfecta;
+
+Crearia una clase sistema en la cual meteria un listado posiblemente de tipo -HashSet<Mascota> mascotasRegistradas
+en el cual guardaria las mascotas registradas en el consultorio veterinario.
+
+Para implementar el metodo 1 me fijaria en el arraylist fechasAsistidas y si en un plazo de un ano cumple con su .vecesAasistirAnuales, devuelve true;
+
+Para implementar el metodo 2 me fijaria su fecha de nacimiento y compararia con fechasAsistidas, si desde el ano que nacio, hasta el dia de la fecha, cumple
+con su .vecesAasistirAnuales, devuelve true
+
+Para la implementacion del tercer metodo, recorreria el set de mascotasRegistradas, por cada mascota utilizaria el metodo 1, y si no cumple, lo agrego
+a un HashSet y lo devuelvo. Este metodo estaria en la clase SistemaVeterinaria
+
+Para la implementacion del ultimo metodo, hago 3 contadores, recorro todas las asistencias hasta el dia de hoy, de cada mascota registrada, y por cada vez que
+hay una asistencia, le sumo, despues comparo los resultados y hago un podio (3ro, 2do, 1ro) en asistencia de las 3 mascotas.
