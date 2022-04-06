@@ -7,6 +7,8 @@ Tambien se podria implementar una interfaz para Persona que tenga los metodos
  +calcularAsistencia();
  +calcularFaltas();
 
+
+
 otro caso de polimorfismo:
 (no tiene que ver con el examen, pero no me acuerdo si lo que pedias profe era con respecto al examen o no)
 
