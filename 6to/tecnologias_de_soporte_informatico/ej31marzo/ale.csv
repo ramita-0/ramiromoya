@@ -1,0 +1,128 @@
+--Cervezas-- 
+ 
+Nombre    Precio    ID
+
+Bell's Double Two Hearted, $1.99, 23
+Founders Underground Mountain Brown, $18.49, 25
+Bell's Two Hearted Ale, $10.99, 26
+Blue Moon Belgian White Belgian-Style Wheat Ale, $89.99, 27
+Elysian Space Dust IPA, $11.49, 28
+Duvel Belgian Ale, $12.49, 29
+Lagunitas IPA, $8.99, 32
+New Belgium Fat Tire, $14.99, 33
+Boddingtons Pub Ale, $8.49, 34
+Hoegaarden Witbier Blanche, $7.99, 35
+Lagunitas Daytime IPA, $9.99, 36
+Stone IPA (India Pale Ale), $11.49, 37
+Spaten Franziskaner Hefe-Weisse, $9.99, 38
+Southern Tier Warlock Imperial Pumpkin Stout, $18.99, 39
+Dogfish Head 60-Minute IPA, $19.99, 40
+Newcastle Brown Ale, $16.99, 41
+Smithwick's Irish Ale, $9.99, 43
+Left Hand Milk Stout Nitro, $11.49, 45
+Shock Top Belgian White Ale, $14.99, 47
+Goose Island IPA, $16.99, 50
+Stone Farking Wheaton w00tstout, $18.49, 51
+Kona Big Wave Golden Ale, $7.99, 52
+North Coast Old Rasputin Imperial Stout, $10.99, 53
+Lagunitas A Little Sumpin Sumpin, $9.99, 54
+Chimay Grande Reserve Blue, $21.49, 55
+Ballast Point Sculpin IPA, $13.99, 56
+New Belgium Fat Tire, $87.99, 59
+St Bernardus Abt 12, $20.99, 63
+Dogfish Head World Wide Stout, $36.99, 64
+Unibroue - La Fin Du Monde, $9.99, 65
+Sierra Nevada Pale Ale, $9.49, 66
+Kona Big Wave Golden Ale, $14.99, 70
+Guinness Foreign Extra Stout, $8.99, 71
+Schofferhofer Hefeweizen Grapefruit, $15.99, 72
+Ballast Point Sculpin IPA, $13.99, 73
+Ballast Point Grapefruit Sculpin IPA, $13.49, 75
+Oskar Blues Dale's Pale Ale, $9.99, 76
+Chimay Grande Reserve Blue, $13.99, 77
+Boulevard Bourbon Barrel Quad, $17.49, 78
+Hofbrau Hefe Weizen, $9.49, 79
+Boulevard Tank 7 Farmhouse Ale, $14.99, 80
+Samuel Smith's Organic Chocolate Stout, $2.99, 81
+Achouffe La Chouffe, $11.79, 84
+Founders Mosaic Promise, $17.99, 85
+Stone Delicious IPA, $22.99, 86
+Rogue Batsquatch Hazy IPA, $10.99, 87
+New Belgium Voodoo Ranger Juicy Haze IPA, $11.49, 88
+Boulevard Whiskey Barrel Stout, $17.99, 89
+Lagunitas Maximus IPA, $9.99, 90
+Offshoot Relax (It's Just a Hazy IPA), $12.99, 91
+Sixpoint Resin, $12.99, 92
+Cigar City Jai-Alai IPA, $99.99, 93
+Wicked Weed Pernicious IPA, $12.99, 94
+Dogfish Head SuperEIGHT, $12.99, 95
+Rochefort 10 Trappist Ale, $6.99, 96
+Delirium Tremens, $18.99, 97
+Lagunitas SuperCluster, $8.99, 98
+New Holland Dragon's Milk White Stout, $12.99, 99
+Goose Island IPA, $7.99, 100
+Ballast Point Grapefruit Sculpin IPA, $13.49, 101
+Sierra Nevada Torpedo Extra IPA, $1.79, 102
+Duclaw Sweet Baby Jesus!, $10.99, 103
+Lagunitas Sumpin' Easy, $16.99, 104
+Lord Hobo Boom Sauce, $12.99, 105
+Weihenstephaner Vitus, $12.99, 106
+New Belgium Voodoo Ranger Juicifer IPA, $12.79, 107
+Lindeman's Framboise, $12.99, 108
+Clown Shoes Space Cake, $15.49, 110
+Victory Golden Monkey Ale, $11.99, 112
+Erdinger Weissbier, $8.99, 113
+Robinsons Trooper Ale, $10.99, 114
+Kentucky Coffee Barrel Stout, $3.99, 115
+Kronenbourg Blanc, $9.49, 117
+Bell's Official Hazy IPA, $10.99, 118
+Cigar City Maduro Brown, $8.99, 119
+Gulden Draak 9000 Quadrupel, $20.99, 120
+Bell's Two Hearted Ale, $10.99, 121
+Sierra Nevada Hop Bullet, $9.99, 122
+Sweetwater 420 Strain G-13, $8.99, 123
+Tripel Karmeliet, $19.99, 124
+Kona Big Wave Golden Ale, $92.99, 126
+Heavy Seas Loose Cannon IPA, $9.99, 127
+Newcastle Brown Ale, $9.49, 128
+Ommegang Three Philosophers, $15.99, 129
+Shock Top Belgian White Ale, $7.49, 130
+Duchesse De Bourgogne, $19.49, 131
+Dogfish Head American Beauty, $13.99, 134
+Old Speckled Hen, $11.49, 135
+Samuel Smith's Oatmeal Stout, $10.99, 136
+Foster's Special Bitter, $1.99, 137
+Kona Hanalei Island IPA, $8.99, 138
+Left Hand Milk Stout Nitro, $9.99, 140
+Paulaner Hefe Weizen, $8.99, 141
+Samuel Adams Rebel IPA, $15.99, 143
+Bass Ale, $8.49, 144
+Chimay Premiere Red, $20.49, 145
+Duvel Tripel Hop, $11.99, 146
+Tripel Karmeliet, $11.99, 147
+Rogue Hazelnut Brown Nectar, $11.99, 148
+Chimay Cinq Cents White Triple, $19.99, 149
+Dogfish Head Flesh and Blood IPA, $14.79, 152
+Bell's Expedition Stout, $17.99, 153
+Duchesse De Bourgogne, $11.49, 154
+Weihenstephaner HefeWeissbier Dark, $3.99, 156
+Fuller's London Pride, $8.99, 157
+SweetWater 420 Pale Ale, $16.49, 158
+Sweetwater 420 Strain G-13, $16.99, 159
+Lagunitas Hop Stoopid Ale, $9.99, 160
+Dogfish Head 60-Minute IPA, $114.99, 161
+Unibroue - La Fin Du Monde, $8.49, 163
+Anderson Valley GOSE Blood Orange, $10.99, 165
+Lindeman's Peche, $12.49, 166
+Stone Scorpion Bowl IPA, $12.49, 167
+Dogfish Head Burton Baton, $15.99, 168
+Delirium Red, $4.99, 170
+Karbach Love Street Summer, $1.99, 171
+Einstok Icelandic White Ale, $11.99, 172
+Dogfish Head 90-Minute IPA, $9.99, 173
+Anderson Valley Briney Melon Gose, $10.99, 174
+Piraat Ale, $17.99, 176
+Lindeman's Framboise, $6.49, 177
+Blue Moon Belgian White Belgian-Style Wheat Ale, $13.99, 178
+Chimay Cinq Cents White Triple, $11.99, 180
+Bell's Double Two HeartedTWO, $2.99, 233
