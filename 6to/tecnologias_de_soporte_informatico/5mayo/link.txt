@@ -1,0 +1,13 @@
+LINK DESCARGA
+
+https://cocalc.com/f3a44b64-bf45-4b75-8997-8f85d84d0721/raw/2022-06-30-075822.ipynb
+
+
+#¿Qué conclusión o conclusiones sacaría del gráfico obtenido?
+# A medida que pasa el tiempo, la cantidad de partidos internacionales son mayores, a exepcion del 2020 al haberse frenado la actividad por la pandemia.
+
+#¿Cuáles serían las variables que considera que deberían tenerse en cuenta pero no las puede apreciar porque el csv no se las provee? ¿Porqué?
+# Para este grafico las variables que provee el dataset alcanza.
+
+#¿Podría relacionar los datos de las dos columnas elegidas para especular y proponer una conclusión? En caso de que no, ¿Con qué columnas cree que lo podría hacer? ¿Porqué?
+# Podrias relacionar las columnas para ver los años mundialistas, ya que esos años son los que mas cantidad de partidos internacionales tiene.
