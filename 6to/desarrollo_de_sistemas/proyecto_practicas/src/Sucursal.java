@@ -81,4 +81,5 @@ public class Sucursal {
         club.agregarDisciplina(disciplina);
         this.disciplinas.add(disciplina);
     }
+
 }

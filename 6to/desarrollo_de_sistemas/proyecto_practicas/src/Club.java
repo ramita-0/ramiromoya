@@ -60,14 +60,18 @@ public class Club {
         this.sucursales.add(sucursal);
     }
 
-    public void borrarSucursal(Sucursal sucursal) {
+    public void borrarSucursal(String direccionSucursal) {
         // el metodo si no me equivoco es mas complejo
-        this.sucursales.remove(sucursal);
+        this.sucursales.remove(direccionSucursal);
     }
 
     public void agregarSocio(Socio socio) {
-        // checkear que no exista ya
+        // checkear que no exista ya, podemos usar un hashset??
         this.socios.add(socio);
+    }
+
+    public void eliminarSocio(int dni) {
+        // eliminar socio
     }
 
     public void agregarDisciplina(Disciplina disciplina) {

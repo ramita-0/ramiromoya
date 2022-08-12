@@ -6,13 +6,15 @@ public class Disciplina {
     private ArrayList<Socio> socios;
     private boolean pileta;
     private ArrayList<Andarivel> andariveles;
+    private ArrayList<ClaseDisciplina> clases;
 
-    public Disciplina(int id, String nombre, ArrayList<Socio> socios, boolean esPileta, ArrayList<Andarivel> andariveles) {
+    public Disciplina(int id, String nombre, ArrayList<Socio> socios, boolean pileta, ArrayList<Andarivel> andariveles, ArrayList<ClaseDisciplina> clases) {
         this.id = id;
         this.nombre = nombre;
         this.socios = socios;
-        this.pileta = esPileta;
+        this.pileta = pileta;
         this.andariveles = andariveles;
+        this.clases = clases;
     }
 
     public int getId() {
@@ -55,6 +57,14 @@ public class Disciplina {
         this.andariveles = andariveles;
     }
 
+    public ArrayList<ClaseDisciplina> getClases() {
+        return clases;
+    }
+
+    public void setClases(ArrayList<ClaseDisciplina> clases) {
+        this.clases = clases;
+    }
+
     public void agregarSocio(Socio socio) {
         // checkear que no exista ya
         this.socios.add(socio);
@@ -68,4 +78,11 @@ public class Disciplina {
         this.andariveles.add(new Andarivel(numeroAndarivel));
     }
 
+    public void borrarAndarivel(int numeroAndarivel) {
+        for (Andarivel andarivelActual : this.andariveles) {
+            if (andarivelActual.getNumero() == numeroAndarivel) {
+                // deletear el andarivel
+            }
+        }
+    }
 }
