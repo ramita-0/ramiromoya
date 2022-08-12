@@ -1,4 +1,4 @@
-public class Arrendatario {
+public abstract class Arrendatario {
     private int id;
     private String actividad;
     private float precioACobrar;
