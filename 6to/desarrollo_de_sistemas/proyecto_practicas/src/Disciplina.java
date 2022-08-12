@@ -74,8 +74,8 @@ public class Disciplina {
         this.socios.remove(socio);
     }
 
-    public void agregarAndarivel(int numeroAndarivel) {
-        this.andariveles.add(new Andarivel(numeroAndarivel));
+    public void agregarAndarivel(Andarivel andarivel) {
+        this.andariveles.add(andarivel);
     }
 
     public void borrarAndarivel(int numeroAndarivel) {
@@ -84,5 +84,13 @@ public class Disciplina {
                 // deletear el andarivel
             }
         }
+    }
+
+    public void agregarClase(ClaseDisciplina claseNueva) {
+        this.clases.add(claseNueva);
+    }
+
+    public void eliminarClase(ClaseDisciplina clase) {
+        this.clases.remove(clase);
     }
 }
