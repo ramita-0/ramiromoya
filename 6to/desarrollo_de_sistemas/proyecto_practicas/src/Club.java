@@ -1,21 +1,26 @@
 import java.util.ArrayList;
 
-// todo hacer toda la parte de pagos y deudas
-
 public class Club {
+    private int id;
     private String nombre;
     private ArrayList<Sucursal> sucursales;
     private ArrayList<Socio> socios;
     private ArrayList<Disciplina> disciplinas;
-    // todo definir los arrays de Personas en club
-    // creo que deberia tener tambien a los profesores o solo un array de Persona, ya que si elimino una sucursal pierdo
-    // todos los datos de los profesores, o no?
 
-    public Club(String nombre) {
+    public Club(int id, String nombre, ArrayList<Sucursal> sucursales, ArrayList<Socio> socios, ArrayList<Disciplina> disciplinas) {
+        this.id = id;
         this.nombre = nombre;
-        this.sucursales = new ArrayList<>();
-        this.socios = new ArrayList<>();
-        this.disciplinas = new ArrayList<>();
+        this.sucursales = sucursales;
+        this.socios = socios;
+        this.disciplinas = disciplinas;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {

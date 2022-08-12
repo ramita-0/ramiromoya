@@ -1,27 +1,24 @@
 import java.util.ArrayList;
 
 public class Sucursal {
-    // todo definir la utilizacion del nombre
-    private String nombre;
+    private int id;
     private String direccion;
     private ArrayList<Personal> personalArrayList;
     private ArrayList<Profesor> profesores;
     private ArrayList<Disciplina> disciplinas;
 
-    public Sucursal(String nombre, String direccion) {
-        this.nombre = nombre;
+    public Sucursal(String direccion) {
         this.direccion = direccion;
         this.personalArrayList = new ArrayList<>();
         this.profesores = new ArrayList<>();
-        this.disciplinas = new ArrayList<>();
     }
 
-    public String getNombre() {
-        return nombre;
+    public int getId() {
+        return id;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getDireccion() {
@@ -56,7 +53,6 @@ public class Sucursal {
         this.disciplinas = disciplinas;
     }
 
-    // estan bien estos metodos? o con los seters alcanza? es medio incomodo con los seters ya que labura con arrays directamente.
     public void agregarPersonal(Personal personal) {
         // check que no este ya anadido
         this.personalArrayList.add(personal);
@@ -78,7 +74,6 @@ public class Sucursal {
     }
 
     public void agregarDisciplina(Club club, Disciplina disciplina) {
-        // todo definir si lo haremos de esta manera
         if (club.getDisciplinas().contains(disciplina)) {
             this.disciplinas.add(disciplina);
             return;

@@ -1,16 +1,26 @@
 import java.util.ArrayList;
 
-// todo definir si hacemos la herencia de pileta o la hacemos aparte
-
 public class Disciplina {
+    private int id;
     private String nombre;
     private ArrayList<Socio> socios;
-    private ArrayList<Profesor> profesores;
+    private boolean pileta;
+    private ArrayList<Andarivel> andariveles;
 
-    public Disciplina(String nombre) {
+    public Disciplina(int id, String nombre, ArrayList<Socio> socios, boolean esPileta, ArrayList<Andarivel> andariveles) {
+        this.id = id;
         this.nombre = nombre;
-        this.socios = new ArrayList<>();
-        this.profesores = new ArrayList<>();
+        this.socios = socios;
+        this.pileta = esPileta;
+        this.andariveles = andariveles;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -29,12 +39,20 @@ public class Disciplina {
         this.socios = socios;
     }
 
-    public ArrayList<Profesor> getProfesores() {
-        return profesores;
+    public boolean isPileta() {
+        return pileta;
     }
 
-    public void setProfesores(ArrayList<Profesor> profesores) {
-        this.profesores = profesores;
+    public void setPileta(boolean pileta) {
+        this.pileta = pileta;
+    }
+
+    public ArrayList<Andarivel> getAndariveles() {
+        return andariveles;
+    }
+
+    public void setAndariveles(ArrayList<Andarivel> andariveles) {
+        this.andariveles = andariveles;
     }
 
     public void agregarSocio(Socio socio) {
@@ -42,13 +60,12 @@ public class Disciplina {
         this.socios.add(socio);
     }
 
-    public void agregarProfesor(Profesor profesor) {
-        // checkear que no exista ya
-        this.profesores.add(profesor);
+    public void borrarSocio(Socio socio) {
+        this.socios.remove(socio);
     }
 
-    public void eliminarProfesor(Profesor profesor) {
-        // el metodo seguro es mas complejo
-        this.profesores.remove(profesor);
+    public void agregarAndarivel(int numeroAndarivel) {
+        this.andariveles.add(new Andarivel(numeroAndarivel));
     }
+
 }

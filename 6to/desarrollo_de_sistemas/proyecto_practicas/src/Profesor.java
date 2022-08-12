@@ -1,26 +1,26 @@
-import java.util.ArrayList;
+import java.time.LocalDate;
+import java.util.Date;
 
-public class Profesor extends Persona {
-    // todo el profesor puede estar en varias disciplinas? si es asi, no le debe de corresponder una sucursal al profesor?
-    // ya que si la disciplina es del club, no se si podes saber de cual sucursal es el profesor.
-    // chequear esto
-    private ArrayList<Disciplina> disciplinas;
+public class Profesor extends Empleado {
+    // todo este atributo se repite
+    private LocalDate fechaVencimientoCertificadoMedico;
 
-    public Profesor(String nombre, String apellido, int dni) {
-        super(nombre, apellido, dni);
-        this.disciplinas = new ArrayList<>();
+    public Profesor(int id, String nombre, String apellido, int dni, String direccion, String telefono, Date fechaNacimiento, String mail, LocalDate fechaVencimientoCertificadoMedico) {
+        super(id, nombre, apellido, dni, direccion, telefono, fechaNacimiento, mail);
+        this.fechaVencimientoCertificadoMedico = fechaVencimientoCertificadoMedico;
     }
 
-    public ArrayList<Disciplina> getDisciplinas() {
-        return disciplinas;
+    public LocalDate getFechaVencimientoCertificadoMedico() {
+        return fechaVencimientoCertificadoMedico;
     }
 
-    public void setDisciplinas(ArrayList<Disciplina> disciplinas) {
-        this.disciplinas = disciplinas;
+    public void setFechaVencimientoCertificadoMedico(LocalDate fechaVencimientoCertificadoMedico) {
+        this.fechaVencimientoCertificadoMedico = fechaVencimientoCertificadoMedico;
     }
 
-    public void agregarDisciplina(Disciplina disciplina) {
-        // chequear que no la tenga ya agregada
-        this.disciplinas.add(disciplina);
+    //todo esta funcion se repite
+    public boolean checkVencimientoCertificadoMedico() {
+        if (this.fechaVencimientoCertificadoMedico.isBefore(LocalDate.now())) return true;
+        return false;
     }
 }

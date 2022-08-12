@@ -1,32 +1,24 @@
-public class Arrendatario extends Persona {
-    // chequear estos atributos
-    private String razonSocial;
+public class Arrendatario {
+    private int id;
     private String actividad;
-    private String precioActividad;
-    private int cantidadAlumnos;
+    private float precioACobrar;
+    private String telefono;
+    private String mail;
 
-    public Arrendatario(String nombre, String apellido, int dni, String razonSocial, String actividad, String precioActividad, int cantidadAlumnos) {
-        super(nombre, apellido, dni);
-        this.razonSocial = razonSocial; // puede ser null, si es que usamos este atributo al final
+    public Arrendatario(int id, String actividad, float precioACobrar, String telefono, String mail) {
+        this.id = id;
         this.actividad = actividad;
-        this.precioActividad = precioActividad;
-        this.cantidadAlumnos = cantidadAlumnos;
+        this.precioACobrar = precioACobrar;
+        this.telefono = telefono;
+        this.mail = mail;
     }
 
-    public Arrendatario(String nombre, String apellido, int dni, String actividad, String precioActividad, int cantidadAlumnos) {
-        super(nombre, apellido, dni);
-        this.razonSocial = null;
-        this.actividad = actividad;
-        this.precioActividad = precioActividad;
-        this.cantidadAlumnos = cantidadAlumnos;
+    public int getId() {
+        return id;
     }
 
-    public String getRazonSocial() {
-        return razonSocial;
-    }
-
-    public void setRazonSocial(String razonSocial) {
-        this.razonSocial = razonSocial;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getActividad() {
@@ -37,27 +29,27 @@ public class Arrendatario extends Persona {
         this.actividad = actividad;
     }
 
-    public String getPrecioActividad() {
-        return precioActividad;
+    public float getPrecioACobrar() {
+        return precioACobrar;
     }
 
-    public void setPrecioActividad(String precioActividad) {
-        this.precioActividad = precioActividad;
+    public void setPrecioACobrar(float precioACobrar) {
+        this.precioACobrar = precioACobrar;
     }
 
-    public int getCantidadAlumnos() {
-        return cantidadAlumnos;
+    public String getTelefono() {
+        return telefono;
     }
 
-    public void setCantidadAlumnos(int cantidadAlumnos) {
-        this.cantidadAlumnos = cantidadAlumnos;
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
 
-    public void agregarAlumno(int cantidad) {
-        this.cantidadAlumnos += cantidad;
+    public String getMail() {
+        return mail;
     }
 
-    public void descontarAlumno(int cantidad) {
-        this.cantidadAlumnos -= cantidad;
+    public void setMail(String mail) {
+        this.mail = mail;
     }
 }
