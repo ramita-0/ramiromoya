@@ -10,6 +10,6 @@ if __name__ == '__main__':
     table = soup.find("table", id="ChartTable")
     for row in table.findAll("tr"):
         position = row.find("span", {"itemprop": "position"})
-        print(position.prettify())
+        print(position)
 
         
