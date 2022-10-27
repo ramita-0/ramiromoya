@@ -1,0 +1,5573 @@
+<tr>
+ <th>
+  Current
+ </th>
+ <th class="cMhidden">
+  Previous
+ </th>
+ <th class="l">
+  Title
+ </th>
+ <th class="sorter-false">
+ </th>
+ <th class="cShidden">
+  Peak
+ </th>
+ <th class="cShidden">
+  Weeks
+ </th>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   1
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (2)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  2
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181325" itemprop="url">
+   <span itemprop="name">
+    Unholy
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/sam_smith" itemprop="url">
+      <span itemprop="name">
+       Sam Smith
+      </span>
+     </meta>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/kim_petras" itemprop="url">
+      <span itemprop="name">
+       Kim Petras
+      </span>
+     </meta>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    4
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  4
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   2
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (1)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  1
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179983" itemprop="url">
+   <span itemprop="name">
+    Bad Habit
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/steve_lacy" itemprop="url">
+      <span itemprop="name">
+       Steve Lacy
+      </span>
+     </meta>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    16
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179983#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  16
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   3
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (3)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  3
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/177741" itemprop="url">
+   <span itemprop="name">
+    As It Was
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/harry_styles" itemprop="url"/>
+     <span itemprop="name">
+      Harry Styles
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    29
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/177741#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  29
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   4
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181845" itemprop="url">
+   <span itemprop="name">
+    California Breeze
+   </span>
+  </a>
+  <span class="GenBut" style="font-size: 60%; position: relative; top: -3px;">
+   Highest Debut
+  </span>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    4 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  4
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   5
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (4)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  4
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179227" itemprop="url">
+   <span itemprop="name">
+    I Like You (a Happier Song)
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/post_malone" itemprop="url"/>
+     <span itemprop="name">
+      Post Malone
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/doja_cat" itemprop="url"/>
+     <span itemprop="name">
+      Doja Cat
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    3 –
+    <i>
+     total weeks:
+    </i>
+    20
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179227#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  3
+ </td>
+ <td class="cStats cShidden">
+  20
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   6
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (6)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  6
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178975" itemprop="url">
+   <span itemprop="name">
+    I Ain't Worried
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/onerepublic" itemprop="url"/>
+     <span itemprop="name">
+      OneRepublic
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    6 –
+    <i>
+     total weeks:
+    </i>
+    19
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178975#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+ <td class="cStats cShidden">
+  19
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   7
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (5)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  5
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178771" itemprop="url">
+   <span itemprop="name">
+    You Proof
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/morgan_wallen" itemprop="url"/>
+     <span itemprop="name">
+      Morgan Wallen
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    5 –
+    <i>
+     total weeks:
+    </i>
+    23
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178771#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  5
+ </td>
+ <td class="cStats cShidden">
+  23
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   8
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (re-entry)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  re-entry
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/154703" itemprop="url">
+   <span itemprop="name">
+    Forever
+   </span>
+  </a>
+  <span class="GenBut" style="font-size: 60%; position: relative; top: -3px;">
+   Best Comeback
+  </span>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_wayne" itemprop="url"/>
+     <span itemprop="name">
+      Lil Wayne
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    8 –
+    <i>
+     total weeks:
+    </i>
+    2
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+ <td class="cStats cShidden">
+  2
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   9
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (8)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  8
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180584" itemprop="url">
+   <span itemprop="name">
+    Super Freaky Girl
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/nicki_minaj" itemprop="url"/>
+     <span itemprop="name">
+      Nicki Minaj
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    10
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180584#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  10
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   10
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181849" itemprop="url">
+   <span itemprop="name">
+    Real Spill
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    10 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  10
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   11
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (7)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  7
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178085" itemprop="url">
+   <span itemprop="name">
+    Sunroof
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/nicky_youre" itemprop="url"/>
+     <span itemprop="name">
+      Nicky Youre
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/dazy" itemprop="url"/>
+     <span itemprop="name">
+      Dazy
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    4 –
+    <i>
+     total weeks:
+    </i>
+    21
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178085#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  4
+ </td>
+ <td class="cStats cShidden">
+  21
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   12
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (12)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  12
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178279" itemprop="url">
+   <span itemprop="name">
+    Something In The Orange
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/zach_bryan" itemprop="url"/>
+     <span itemprop="name">
+      Zach Bryan
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    12 –
+    <i>
+     total weeks:
+    </i>
+    26
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178279#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  12
+ </td>
+ <td class="cStats cShidden">
+  26
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   13
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (10)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  10
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178474" itemprop="url">
+   <span itemprop="name">
+    Vegas
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/doja_cat" itemprop="url"/>
+     <span itemprop="name">
+      Doja Cat
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    10 –
+    <i>
+     total weeks:
+    </i>
+    20
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178474#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  10
+ </td>
+ <td class="cStats cShidden">
+  20
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   14
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (16)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  16
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180807" itemprop="url">
+   <span itemprop="name">
+    I'm Good (blue)
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/david_guetta" itemprop="url"/>
+     <span itemprop="name">
+      David Guetta
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/bebe_rexha" itemprop="url"/>
+     <span itemprop="name">
+      Bebe Rexha
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    14 –
+    <i>
+     total weeks:
+    </i>
+    8
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180807#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  14
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   15
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (re-entry)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  re-entry
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/120824" itemprop="url">
+   <span itemprop="name">
+    Pop Out
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/polo_g" itemprop="url"/>
+     <span itemprop="name">
+      Polo G
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_tjay" itemprop="url"/>
+     <span itemprop="name">
+      Lil Tjay
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    11 –
+    <i>
+     total weeks:
+    </i>
+    28
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/120824#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  11
+ </td>
+ <td class="cStats cShidden">
+  28
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   16
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (40)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  40
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/177942" itemprop="url">
+   <span itemprop="name">
+    In A Minute
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    14 –
+    <i>
+     total weeks:
+    </i>
+    28
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/177942#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  14
+ </td>
+ <td class="cStats cShidden">
+  28
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   17
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (14)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  14
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/160242" itemprop="url">
+   <span itemprop="name">
+    Wasted On You
+   </span>
+  </a>
+  <span class="GenBut" style="font-size: 60%; position: relative; top: -3px;">
+   Longest on Chart
+  </span>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/morgan_wallen" itemprop="url"/>
+     <span itemprop="name">
+      Morgan Wallen
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    9 –
+    <i>
+     total weeks:
+    </i>
+    49
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/160242#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  9
+ </td>
+ <td class="cStats cShidden">
+  49
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   18
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (13)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  13
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178331" itemprop="url">
+   <span itemprop="name">
+    Wait For U
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/future" itemprop="url"/>
+     <span itemprop="name">
+      Future
+     </span>
+    </span>
+    featuring
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/drake" itemprop="url"/>
+     <span itemprop="name">
+      Drake
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/tems" itemprop="url"/>
+     <span itemprop="name">
+      Tems
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    25
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178331#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  25
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   19
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181923" itemprop="url">
+   <span itemprop="name">
+    Never Hating
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/young_thug" itemprop="url"/>
+     <span itemprop="name">
+      Young Thug
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    19 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  19
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   20
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (11)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  11
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178082" itemprop="url">
+   <span itemprop="name">
+    About Damn Time
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lizzo" itemprop="url"/>
+     <span itemprop="name">
+      Lizzo
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    27
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178082#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  27
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   21
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (77)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  77
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181789" itemprop="url">
+   <span itemprop="name">
+    Heyy
+   </span>
+  </a>
+  <span class="GenBut" style="font-size: 60%; position: relative; top: -3px;">
+   Greatest Gain
+  </span>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    21 –
+    <i>
+     total weeks:
+    </i>
+    2
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  21
+ </td>
+ <td class="cStats cShidden">
+  2
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   22
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181924" itemprop="url">
+   <span itemprop="name">
+    Stand On It
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    22 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  22
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   23
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (9)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  9
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179619" itemprop="url">
+   <span itemprop="name">
+    The Kind Of Love We Make
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/luke_combs" itemprop="url"/>
+     <span itemprop="name">
+      Luke Combs
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    8 –
+    <i>
+     total weeks:
+    </i>
+    18
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179619#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+ <td class="cStats cShidden">
+  18
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   24
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (19)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  19
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181451" itemprop="url">
+   <span itemprop="name">
+    Tomorrow 2
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/glorilla" itemprop="url"/>
+     <span itemprop="name">
+      Glorilla
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/cardi_b" itemprop="url"/>
+     <span itemprop="name">
+      Cardi B
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    9 –
+    <i>
+     total weeks:
+    </i>
+    4
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  9
+ </td>
+ <td class="cStats cShidden">
+  4
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   25
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (15)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  15
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178516" itemprop="url">
+   <span itemprop="name">
+    Tití Me Preguntó
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/bad_bunny" itemprop="url"/>
+     <span itemprop="name">
+      Bad Bunny
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    5 –
+    <i>
+     total weeks:
+    </i>
+    24
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178516#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  5
+ </td>
+ <td class="cStats cShidden">
+  24
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   26
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181925" itemprop="url">
+   <span itemprop="name">
+    Not Finished
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    26 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  26
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   27
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (18)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  18
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178798" itemprop="url">
+   <span itemprop="name">
+    Late Night Talking
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/harry_styles" itemprop="url"/>
+     <span itemprop="name">
+      Harry Styles
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    3 –
+    <i>
+     total weeks:
+    </i>
+    22
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178798#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  3
+ </td>
+ <td class="cStats cShidden">
+  22
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   28
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (20)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  20
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179117" itemprop="url">
+   <span itemprop="name">
+    She Had Me At Heads Carolina
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/cole_swindell" itemprop="url"/>
+     <span itemprop="name">
+      Cole Swindell
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    16 –
+    <i>
+     total weeks:
+    </i>
+    21
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179117#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  16
+ </td>
+ <td class="cStats cShidden">
+  21
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   29
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (23)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  23
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180224" itemprop="url">
+   <span itemprop="name">
+    Under The Influence
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/chris_brown" itemprop="url"/>
+     <span itemprop="name">
+      Chris Brown
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    23 –
+    <i>
+     total weeks:
+    </i>
+    6
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180224#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  23
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   30
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (17)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  17
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178515" itemprop="url">
+   <span itemprop="name">
+    Me Porto Bonito
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/bad_bunny" itemprop="url"/>
+     <span itemprop="name">
+      Bad Bunny
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/chencho_	corleone" itemprop="url"/>
+     <span itemprop="name">
+      Chencho 	Corleone
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    6 –
+    <i>
+     total weeks:
+    </i>
+    24
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178515#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+ <td class="cStats cShidden">
+  24
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   31
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (22)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  22
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179548" itemprop="url">
+   <span itemprop="name">
+    Jimmy Cooks
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/drake" itemprop="url"/>
+     <span itemprop="name">
+      Drake
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/21_savage" itemprop="url"/>
+     <span itemprop="name">
+      21 Savage
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    18
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179548#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  18
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   32
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181926" itemprop="url">
+   <span itemprop="name">
+    Perfect Timing
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    32 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  32
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   33
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (27)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  27
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180365" itemprop="url">
+   <span itemprop="name">
+    Cuff It
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/beyonce" itemprop="url"/>
+     <span itemprop="name">
+      Beyoncé
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    13 –
+    <i>
+     total weeks:
+    </i>
+    10
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180365#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  13
+ </td>
+ <td class="cStats cShidden">
+  10
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   34
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (24)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  24
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180676" itemprop="url">
+   <span itemprop="name">
+    Hold Me Closer
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/elton_john" itemprop="url"/>
+     <span itemprop="name">
+      Elton John
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/britney_spears" itemprop="url"/>
+     <span itemprop="name">
+      Britney Spears
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    6 –
+    <i>
+     total weeks:
+    </i>
+    8
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180676#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   35
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (31)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  31
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179518" itemprop="url">
+   <span itemprop="name">
+    Rock And A Hard Place
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/bailey_zimmerman" itemprop="url"/>
+     <span itemprop="name">
+      Bailey Zimmerman
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    24 –
+    <i>
+     total weeks:
+    </i>
+    19
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179518#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  24
+ </td>
+ <td class="cStats cShidden">
+  19
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   36
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (29)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  29
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178139" itemprop="url">
+   <span itemprop="name">
+    Fall In Love
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/bailey_zimmerman" itemprop="url"/>
+     <span itemprop="name">
+      Bailey Zimmerman
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    29 –
+    <i>
+     total weeks:
+    </i>
+    25
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178139#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  29
+ </td>
+ <td class="cStats cShidden">
+  25
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   37
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (33)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  33
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/103418" itemprop="url">
+   <span itemprop="name">
+    Die For You
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/weeknd" itemprop="url"/>
+     <span itemprop="name">
+      The Weeknd
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    33 –
+    <i>
+     total weeks:
+    </i>
+    12
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/103418#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  33
+ </td>
+ <td class="cStats cShidden">
+  12
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   38
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (26)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  26
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181116" itemprop="url">
+   <span itemprop="name">
+    Thank God
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/kane_brown" itemprop="url"/>
+     <span itemprop="name">
+      Kane Brown
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/katelyn_brown" itemprop="url"/>
+     <span itemprop="name">
+      Katelyn Brown
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    22 –
+    <i>
+     total weeks:
+    </i>
+    6
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/181116#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  22
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   39
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (28)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  28
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/97538" itemprop="url">
+   <span itemprop="name">
+    Unstoppable
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/sia" itemprop="url"/>
+     <span itemprop="name">
+      Sia
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    28 –
+    <i>
+     total weeks:
+    </i>
+    16
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/97538#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  28
+ </td>
+ <td class="cStats cShidden">
+  16
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   40
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (65)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  65
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181788" itemprop="url">
+   <span itemprop="name">
+    Poland
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_yachty" itemprop="url"/>
+     <span itemprop="name">
+      Lil Yachty
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    40 –
+    <i>
+     total weeks:
+    </i>
+    2
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  40
+ </td>
+ <td class="cStats cShidden">
+  2
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   41
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (25)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  25
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179519" itemprop="url">
+   <span itemprop="name">
+    5 Foot 9
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/tyler_hubbard" itemprop="url"/>
+     <span itemprop="name">
+      Tyler Hubbard
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    22 –
+    <i>
+     total weeks:
+    </i>
+    19
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  22
+ </td>
+ <td class="cStats cShidden">
+  19
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   42
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181927" itemprop="url">
+   <span itemprop="name">
+    From Now On
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/future" itemprop="url"/>
+     <span itemprop="name">
+      Future
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    42 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  42
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   43
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (32)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  32
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181333" itemprop="url">
+   <span itemprop="name">
+    Star Walkin'
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_nas_x" itemprop="url"/>
+     <span itemprop="name">
+      Lil Nas X
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    32 –
+    <i>
+     total weeks:
+    </i>
+    4
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  32
+ </td>
+ <td class="cStats cShidden">
+  4
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   44
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (30)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  30
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/177866" itemprop="url">
+   <span itemprop="name">
+    First Class
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jack_harlow" itemprop="url"/>
+     <span itemprop="name">
+      Jack Harlow
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    28
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/177866#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  28
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   45
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181928" itemprop="url">
+   <span itemprop="name">
+    Waterfall Flow
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    45 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  45
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   46
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (36)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  36
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181018" itemprop="url">
+   <span itemprop="name">
+    Romantic Homicide
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/d4vd" itemprop="url"/>
+     <span itemprop="name">
+      D4Vd
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    33 –
+    <i>
+     total weeks:
+    </i>
+    7
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/181018#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  33
+ </td>
+ <td class="cStats cShidden">
+  7
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   47
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (35)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  35
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180438" itemprop="url">
+   <span itemprop="name">
+    Victoriaâs Secret
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jax" itemprop="url"/>
+     <span itemprop="name">
+      J.Ax
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    35 –
+    <i>
+     total weeks:
+    </i>
+    12
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180438#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  35
+ </td>
+ <td class="cStats cShidden">
+  12
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   48
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (38)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  38
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178477" itemprop="url">
+   <span itemprop="name">
+    Until I Found You
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/stephen_sanchez" itemprop="url"/>
+     <span itemprop="name">
+      Stephen Sanchez
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    38 –
+    <i>
+     total weeks:
+    </i>
+    16
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178477#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  38
+ </td>
+ <td class="cStats cShidden">
+  16
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   49
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (37)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  37
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179979" itemprop="url">
+   <span itemprop="name">
+    Son Of A Sinner
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jelly_roll" itemprop="url"/>
+     <span itemprop="name">
+      Jelly Roll
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    31 –
+    <i>
+     total weeks:
+    </i>
+    16
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179979#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  31
+ </td>
+ <td class="cStats cShidden">
+  16
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   50
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (52)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  52
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180773" itemprop="url">
+   <span itemprop="name">
+    Don't Come Lookin'
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jackson_dean" itemprop="url"/>
+     <span itemprop="name">
+      Jackson Dean
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    50 –
+    <i>
+     total weeks:
+    </i>
+    8
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180773#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  50
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   51
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (41)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  41
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180654" itemprop="url">
+   <span itemprop="name">
+    What My World Spins Around
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jordan_davis" itemprop="url"/>
+     <span itemprop="name">
+      Jordan Davis
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    41 –
+    <i>
+     total weeks:
+    </i>
+    10
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  41
+ </td>
+ <td class="cStats cShidden">
+  10
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   52
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181929" itemprop="url">
+   <span itemprop="name">
+    Everything
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    52 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  52
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   53
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181846" itemprop="url">
+   <span itemprop="name">
+    Bye Bye
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/marshmello" itemprop="url"/>
+     <span itemprop="name">
+      Marshmello
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/juice_wrld" itemprop="url"/>
+     <span itemprop="name">
+      Juice WRLD
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    53 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  53
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   54
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181930" itemprop="url">
+   <span itemprop="name">
+    Double Down
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    54 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  54
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   55
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (44)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  44
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178572" itemprop="url">
+   <span itemprop="name">
+    Whiskey On You
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/nate_smith" itemprop="url"/>
+     <span itemprop="name">
+      Nate Smith
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    44 –
+    <i>
+     total weeks:
+    </i>
+    18
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178572#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  44
+ </td>
+ <td class="cStats cShidden">
+  18
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   56
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (34)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  34
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179433" itemprop="url">
+   <span itemprop="name">
+    Glimpse Of Us
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/joji" itemprop="url"/>
+     <span itemprop="name">
+      Joji
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    8 –
+    <i>
+     total weeks:
+    </i>
+    19
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179433#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+ <td class="cStats cShidden">
+  19
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   57
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181931" itemprop="url">
+   <span itemprop="name">
+    Cost To Be Alive
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/rylo_rodriguez" itemprop="url"/>
+     <span itemprop="name">
+      Rylo Rodriguez
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    57 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  57
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   58
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181932" itemprop="url">
+   <span itemprop="name">
+    Shiest Talk
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/pooh_shiesty" itemprop="url"/>
+     <span itemprop="name">
+      Pooh Shiesty
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    58 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  58
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   59
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (39)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  39
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179900" itemprop="url">
+   <span itemprop="name">
+    Betty (get Money)
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/yung_gravy" itemprop="url"/>
+     <span itemprop="name">
+      Yung Gravy
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    30 –
+    <i>
+     total weeks:
+    </i>
+    15
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179900#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  30
+ </td>
+ <td class="cStats cShidden">
+  15
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   60
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (47)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  47
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179981" itemprop="url">
+   <span itemprop="name">
+    Wishful Drinking
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/ingrid_andress" itemprop="url"/>
+     <span itemprop="name">
+      Ingrid Andress
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/sam_hunt" itemprop="url"/>
+     <span itemprop="name">
+      Sam Hunt
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    47 –
+    <i>
+     total weeks:
+    </i>
+    16
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179981#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  47
+ </td>
+ <td class="cStats cShidden">
+  16
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   61
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181848" itemprop="url">
+   <span itemprop="name">
+    Edging
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/blink_182" itemprop="url"/>
+     <span itemprop="name">
+      Blink 182
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    61 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  61
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   62
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (56)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  56
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180909" itemprop="url">
+   <span itemprop="name">
+    Golden Hour
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jvke" itemprop="url"/>
+     <span itemprop="name">
+      Jvke
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    56 –
+    <i>
+     total weeks:
+    </i>
+    8
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  56
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   63
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (53)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  53
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180563" itemprop="url">
+   <span itemprop="name">
+    Half Of Me
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/thomas_rhett" itemprop="url"/>
+     <span itemprop="name">
+      Thomas Rhett
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/riley_green" itemprop="url"/>
+     <span itemprop="name">
+      Riley Green
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    53 –
+    <i>
+     total weeks:
+    </i>
+    9
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  53
+ </td>
+ <td class="cStats cShidden">
+  9
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   64
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181933" itemprop="url">
+   <span itemprop="name">
+    Top Priority
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    64 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  64
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   65
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (50)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  50
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180194" itemprop="url">
+   <span itemprop="name">
+    Free Mind
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/tems" itemprop="url"/>
+     <span itemprop="name">
+      Tems
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    46 –
+    <i>
+     total weeks:
+    </i>
+    14
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  46
+ </td>
+ <td class="cStats cShidden">
+  14
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   66
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (49)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  49
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180486" itemprop="url">
+   <span itemprop="name">
+    Staying Alive
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/dj_khaled" itemprop="url"/>
+     <span itemprop="name">
+      DJ Khaled
+     </span>
+    </span>
+    featuring
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/drake" itemprop="url"/>
+     <span itemprop="name">
+      Drake
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    5 –
+    <i>
+     total weeks:
+    </i>
+    11
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180486#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  5
+ </td>
+ <td class="cStats cShidden">
+  11
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   67
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (57)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  57
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181455" itemprop="url">
+   <span itemprop="name">
+    No Se Va
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/grupo_frontera" itemprop="url"/>
+     <span itemprop="name">
+      Grupo Frontera
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    57 –
+    <i>
+     total weeks:
+    </i>
+    4
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  57
+ </td>
+ <td class="cStats cShidden">
+  4
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   68
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181934" itemprop="url">
+   <span itemprop="name">
+    Back And Forth
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/est_gee" itemprop="url"/>
+     <span itemprop="name">
+      Est Gee
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    68 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  68
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   69
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181935" itemprop="url">
+   <span itemprop="name">
+    Danger
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    69 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  69
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   70
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181936" itemprop="url">
+   <span itemprop="name">
+    Russian Roulette
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    70 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  70
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   71
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (58)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  58
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180656" itemprop="url">
+   <span itemprop="name">
+    Billie Eilish.
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/armani_white" itemprop="url"/>
+     <span itemprop="name">
+      Armani White
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    58 –
+    <i>
+     total weeks:
+    </i>
+    6
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180656#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  58
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   72
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (55)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  55
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180127" itemprop="url">
+   <span itemprop="name">
+    2 Be Loved (am I Ready)
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lizzo" itemprop="url"/>
+     <span itemprop="name">
+      Lizzo
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    55 –
+    <i>
+     total weeks:
+    </i>
+    10
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180127#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  55
+ </td>
+ <td class="cStats cShidden">
+  10
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   73
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (48)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  48
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178678" itemprop="url">
+   <span itemprop="name">
+    Last Last
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/burna_boy" itemprop="url"/>
+     <span itemprop="name">
+      Burna Boy
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    44 –
+    <i>
+     total weeks:
+    </i>
+    15
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178678#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  44
+ </td>
+ <td class="cStats cShidden">
+  15
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   74
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (59)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  59
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178802" itemprop="url">
+   <span itemprop="name">
+    Music For A Sushi Restaurant
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/harry_styles" itemprop="url"/>
+     <span itemprop="name">
+      Harry Styles
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    8 –
+    <i>
+     total weeks:
+    </i>
+    14
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+ <td class="cStats cShidden">
+  14
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   75
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (54)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  54
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180913" itemprop="url">
+   <span itemprop="name">
+    Wait In The Truck
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/hardy" itemprop="url"/>
+     <span itemprop="name">
+      Hardy
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lainey_wilson" itemprop="url"/>
+     <span itemprop="name">
+      Lainey Wilson
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    54 –
+    <i>
+     total weeks:
+    </i>
+    7
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180913#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  54
+ </td>
+ <td class="cStats cShidden">
+  7
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   76
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181937" itemprop="url">
+   <span itemprop="name">
+    Fr
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    76 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  76
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   77
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (60)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  60
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181191" itemprop="url">
+   <span itemprop="name">
+    Evergreen (you Didn't Deserve Me At All)
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/omar_apollo" itemprop="url"/>
+     <span itemprop="name">
+      Omar Apollo
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    51 –
+    <i>
+     total weeks:
+    </i>
+    5
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  51
+ </td>
+ <td class="cStats cShidden">
+  5
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   78
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (62)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  62
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180075" itemprop="url">
+   <span itemprop="name">
+    All Mine
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/brent_faiyaz" itemprop="url"/>
+     <span itemprop="name">
+      Brent Faiyaz
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    42 –
+    <i>
+     total weeks:
+    </i>
+    11
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  42
+ </td>
+ <td class="cStats cShidden">
+  11
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   79
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (90)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  90
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181657" itemprop="url">
+   <span itemprop="name">
+    Gotta Move On
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/diddy" itemprop="url"/>
+     <span itemprop="name">
+      Diddy
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/bryson_tiller" itemprop="url"/>
+     <span itemprop="name">
+      Bryson Tiller
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    79 –
+    <i>
+     total weeks:
+    </i>
+    3
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  79
+ </td>
+ <td class="cStats cShidden">
+  3
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   80
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181938" itemprop="url">
+   <span itemprop="name">
+    No Fly Zone
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    80 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  80
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   81
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181939" itemprop="url">
+   <span itemprop="name">
+    Stop Playin
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jeremih" itemprop="url"/>
+     <span itemprop="name">
+      Jeremih
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    81 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  81
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   82
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (67)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  67
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180309" itemprop="url">
+   <span itemprop="name">
+    La Bachata
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/manuel_turizo" itemprop="url"/>
+     <span itemprop="name">
+      Manuel Turizo
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    67 –
+    <i>
+     total weeks:
+    </i>
+    9
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180309#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  67
+ </td>
+ <td class="cStats cShidden">
+  9
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   83
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (66)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  66
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180905" itemprop="url">
+   <span itemprop="name">
+    Gatubela
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/karol_g_x_maldy" itemprop="url"/>
+     <span itemprop="name">
+      Karol G X Maldy
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    37 –
+    <i>
+     total weeks:
+    </i>
+    8
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180905#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  37
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   84
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (63)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  63
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181118" itemprop="url">
+   <span itemprop="name">
+    Freestyle
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_baby" itemprop="url"/>
+     <span itemprop="name">
+      Lil Baby
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    63 –
+    <i>
+     total weeks:
+    </i>
+    6
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/181118#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  63
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   85
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (42)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  42
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179714" itemprop="url">
+   <span itemprop="name">
+    Left And Right
+   </span>
+  </a>
+  <span class="GenBut" style="font-size: 60%; position: relative; top: -3px;">
+   Biggest Fall
+  </span>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/charlie_puth" itemprop="url"/>
+     <span itemprop="name">
+      Charlie Puth
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jung_kook" itemprop="url"/>
+     <span itemprop="name">
+      Jung Kook
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    22 –
+    <i>
+     total weeks:
+    </i>
+    17
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179714#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  22
+ </td>
+ <td class="cStats cShidden">
+  17
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   86
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (new)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  new
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181940" itemprop="url">
+   <span itemprop="name">
+    Just Wanna Rock
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lil_uzi_vert" itemprop="url"/>
+     <span itemprop="name">
+      Lil Uzi Vert
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    86 –
+    <i>
+     total weeks:
+    </i>
+    1
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  86
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   87
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (64)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  64
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179466" itemprop="url">
+   <span itemprop="name">
+    Numb
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/marshmello" itemprop="url"/>
+     <span itemprop="name">
+      Marshmello
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/khalid" itemprop="url"/>
+     <span itemprop="name">
+      Khalid
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    40 –
+    <i>
+     total weeks:
+    </i>
+    16
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179466#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  40
+ </td>
+ <td class="cStats cShidden">
+  16
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   88
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (61)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  61
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179575" itemprop="url">
+   <span itemprop="name">
+    Break My Soul
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/beyonce" itemprop="url"/>
+     <span itemprop="name">
+      Beyoncé
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    1 –
+    <i>
+     total weeks:
+    </i>
+    18
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179575#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  1
+ </td>
+ <td class="cStats cShidden">
+  18
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   89
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (74)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  74
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178403" itemprop="url">
+   <span itemprop="name">
+    Calm Down
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/rema" itemprop="url"/>
+     <span itemprop="name">
+      Rema
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    74 –
+    <i>
+     total weeks:
+    </i>
+    7
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178403#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  74
+ </td>
+ <td class="cStats cShidden">
+  7
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   90
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (70)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  70
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180197" itemprop="url">
+   <span itemprop="name">
+    Pick Me Up
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/gabby_barrett" itemprop="url"/>
+     <span itemprop="name">
+      Gabby Barrett
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    69 –
+    <i>
+     total weeks:
+    </i>
+    12
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180197#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  69
+ </td>
+ <td class="cStats cShidden">
+  12
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   91
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (72)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  72
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/37591" itemprop="url">
+   <span itemprop="name">
+    Country Man
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/luke_bryan" itemprop="url"/>
+     <span itemprop="name">
+      Luke Bryan
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    72 –
+    <i>
+     total weeks:
+    </i>
+    18
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  72
+ </td>
+ <td class="cStats cShidden">
+  18
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   92
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (69)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  69
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180360" itemprop="url">
+   <span itemprop="name">
+    Despechá
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/rosalia" itemprop="url"/>
+     <span itemprop="name">
+      Rosalia
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    63 –
+    <i>
+     total weeks:
+    </i>
+    11
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180360#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  63
+ </td>
+ <td class="cStats cShidden">
+  11
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   93
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (73)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  73
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/177514" itemprop="url">
+   <span itemprop="name">
+    She Likes It
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/russell_dickerson" itemprop="url"/>
+     <span itemprop="name">
+      Russell Dickerson
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/jake_scott" itemprop="url"/>
+     <span itemprop="name">
+      Jake Scott
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    63 –
+    <i>
+     total weeks:
+    </i>
+    29
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/177514#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  63
+ </td>
+ <td class="cStats cShidden">
+  29
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   94
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (75)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  75
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181656" itemprop="url">
+   <span itemprop="name">
+    Tennessee Orange
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/megan_moroney" itemprop="url"/>
+     <span itemprop="name">
+      Megan Moroney
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    75 –
+    <i>
+     total weeks:
+    </i>
+    3
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  75
+ </td>
+ <td class="cStats cShidden">
+  3
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   95
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (82)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  82
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179208" itemprop="url">
+   <span itemprop="name">
+    Snap
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/rosa_linn" itemprop="url"/>
+     <span itemprop="name">
+      Rosa Linn
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    82 –
+    <i>
+     total weeks:
+    </i>
+    8
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179208#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  82
+ </td>
+ <td class="cStats cShidden">
+  8
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   96
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (84)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  84
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180684" itemprop="url">
+   <span itemprop="name">
+    Static
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/steve_lacy" itemprop="url"/>
+     <span itemprop="name">
+      Steve Lacy
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    78 –
+    <i>
+     total weeks:
+    </i>
+    7
+   </span>
+  </br>
+ </td>
+ <td class="cImg">
+ </td>
+ <td class="cStats cShidden">
+  78
+ </td>
+ <td class="cStats cShidden">
+  7
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   97
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (79)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  79
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/180110" itemprop="url">
+   <span itemprop="name">
+    Bzrp Music Sessions Vol.52
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/bizarrap" itemprop="url"/>
+     <span itemprop="name">
+      Bizarrap
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/quevedo" itemprop="url"/>
+     <span itemprop="name">
+      Quevedo
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    79 –
+    <i>
+     total weeks:
+    </i>
+    9
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/180110#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  79
+ </td>
+ <td class="cStats cShidden">
+  9
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   98
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (85)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  85
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/178933" itemprop="url">
+   <span itemprop="name">
+    Soul
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lee_brice" itemprop="url"/>
+     <span itemprop="name">
+      Lee Brice
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    83 –
+    <i>
+     total weeks:
+    </i>
+    6
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/178933#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  83
+ </td>
+ <td class="cStats cShidden">
+  6
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   99
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (95)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  95
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/181046" itemprop="url">
+   <span itemprop="name">
+    Forget Me
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/lewis_capaldi" itemprop="url"/>
+     <span itemprop="name">
+      Lewis Capaldi
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    95 –
+    <i>
+     total weeks:
+    </i>
+    3
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/181046#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  95
+ </td>
+ <td class="cStats cShidden">
+  3
+ </td>
+</tr>
+
+<tr itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+ <td class="cNum">
+  <span itemprop="position">
+   100
+  </span>
+  .
+  <span class="Sub subStatsPrev">
+   <br/>
+   (86)
+  </span>
+ </td>
+ <td class="cStats cMhidden">
+  86
+ </td>
+ <td class="cPrinciple" itemprop="item" itemscope="" itemtype="http://schema.org/MusicRecording">
+  <a href="https://acharts.co/song/179980" itemprop="url">
+   <span itemprop="name">
+    Good Love
+   </span>
+  </a>
+  <br>
+   <span class="Sub">
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/city_girls" itemprop="url"/>
+     <span itemprop="name">
+      City Girls
+     </span>
+    </span>
+    and
+    <span itemprop="byArtist" itemscope="" itemtype="http://schema.org/MusicGroup">
+     <meta content="https://acharts.co/artist/usher" itemprop="url"/>
+     <span itemprop="name">
+      Usher
+     </span>
+    </span>
+   </span>
+   <span class="Sub subStatsDetails">
+    <br/>
+    <i>
+     peak position:
+    </i>
+    70 –
+    <i>
+     total weeks:
+    </i>
+    5
+   </span>
+  </br>
+ </td>
+ <td class="cImg Ico Video">
+  <a href="/song/179980#video">
+  </a>
+ </td>
+ <td class="cStats cShidden">
+  70
+ </td>
+ <td class="cStats cShidden">
+  5
+ </td>
+</tr>
+

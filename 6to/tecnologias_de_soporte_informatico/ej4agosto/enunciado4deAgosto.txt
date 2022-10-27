@@ -1,0 +1,7 @@
+- Seleccionar un sitio web y extraer información de ella utilizando las herramientas
+vistas para crear un data-set con extensión "csv".
+- El data set generado deberá tener, como mínimo, 4 columnas y 50 líneas.
+- El tipo de separador puede ser "," ó ";"
+- Se deberá entregar el data-set generado y el notebook de python con el link del sitio web que
+se eligió más el código implementado.
+	- Recordar crear funciones para modularizar el código.
