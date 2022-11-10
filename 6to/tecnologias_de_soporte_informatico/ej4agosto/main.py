@@ -10,12 +10,13 @@ equipo = []
 tiempoVuelta = []
 y = []
 
+# Extraigo los mejores tiempos de vuelta de cada piloto de los circutos de la F1 2021 
 url = 'https://www.formula1.com/en/results.html/2021/fastest-laps.html'
 
 r = requests.get(url)
 s = soup(r.text, 'html.parser')
 
-y = y + [2022 for i in range(0,len(list(s.find_all('span', class_='hide-for-tablet'))))]
+y = y + [2021 for i in range(0,len(list(s.find_all('span', class_='hide-for-tablet'))))]
 nombre = nombre + list(x.text.strip() for x in (s.find_all('span', class_='hide-for-tablet')))
 apellido = apellido + list(x.text.strip() for x in (s.find_all('span', class_='hide-for-mobile')))
 tag = tag + list(x.text.strip() for x in (s.find_all('span', class_='uppercase hide-for-desktop')))
